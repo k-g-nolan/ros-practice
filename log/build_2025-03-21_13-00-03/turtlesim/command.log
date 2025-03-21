@@ -1,0 +1,6 @@
+Invoking command in '/home/knolan/ros2_ws2/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/knolan/ros2_ws2/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/knolan/ros2_ws2/install/turtlesim
+Invoked command in '/home/knolan/ros2_ws2/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/knolan/ros2_ws2/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/knolan/ros2_ws2/install/turtlesim
+Invoking command in '/home/knolan/ros2_ws2/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/knolan/ros2_ws2/build/turtlesim -- -j12 -l12
+Invoked command in '/home/knolan/ros2_ws2/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/knolan/ros2_ws2/build/turtlesim -- -j12 -l12
+Invoking command in '/home/knolan/ros2_ws2/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/knolan/ros2_ws2/build/turtlesim
+Invoked command in '/home/knolan/ros2_ws2/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/knolan/ros2_ws2/build/turtlesim
