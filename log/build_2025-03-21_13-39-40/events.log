@@ -1,0 +1,317 @@
+[0.000000] (-) TimerEvent: {}
+[0.000159] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000180] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.000195] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.013837] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'cmake'}
+[0.015723] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'build'}
+[0.015783] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/knolan/ros2_ws2/build/my_package', '--', '-j12', '-l12'], 'cwd': '/home/knolan/ros2_ws2/build/my_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'knolan'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/knolan/ros2_ws2/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{51855cb2-8cce-5362-8f54-464b92b32386}'), ('HOME', '/home/knolan'), ('OLDPWD', '/home/knolan/ros2_ws2/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/knolan/ros2_ws2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'knolan'), ('NAME', 'HPX360-09'), ('WSL_INTEROP', '/run/WSL/22296_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/TwinCAT/Common64:/mnt/c/TwinCAT/Common32:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/WireGuard/:/mnt/c/Program Files/Fortect:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X64/:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X86/:/mnt/c/Program Files (x86)/Common Files/Pulse Secure/TNC Client Plugin/:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/Meld/:/mnt/c/Users/knolan/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/knolan/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/knolan/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/knolan/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/knolan/.dotnet/tools:/mnt/c/Users/knolan/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/knolan/AppData/Roaming/npm:/snap/bin'), ('WT_SESSION', '81afe777-187f-40a4-8a8c-c102a0f92460'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/knolan/ros2_ws2/install/turtlesim:/home/knolan/ros2_ws2/install/my_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/knolan/ros2_ws2/build/my_package'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/knolan/ros2_ws2/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/knolan/ros2_ws2/install/turtlesim:/home/knolan/ros2_ws2/install/my_package:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.098779] (-) TimerEvent: {}
+[0.113830] (my_package) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.198995] (-) TimerEvent: {}
+[0.258211] (my_package) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.299189] (-) TimerEvent: {}
+[0.399605] (-) TimerEvent: {}
+[0.500276] (-) TimerEvent: {}
+[0.600703] (-) TimerEvent: {}
+[0.701126] (-) TimerEvent: {}
+[0.763115] (my_package) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.766061] (my_package) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.774272] (my_package) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.786309] (my_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.801239] (-) TimerEvent: {}
+[0.803945] (my_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.849082] (my_package) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.851627] (my_package) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.901438] (-) TimerEvent: {}
+[1.001794] (-) TimerEvent: {}
+[1.102271] (-) TimerEvent: {}
+[1.202684] (-) TimerEvent: {}
+[1.303159] (-) TimerEvent: {}
+[1.403756] (-) TimerEvent: {}
+[1.504150] (-) TimerEvent: {}
+[1.604466] (-) TimerEvent: {}
+[1.704890] (-) TimerEvent: {}
+[1.805224] (-) TimerEvent: {}
+[1.905583] (-) TimerEvent: {}
+[2.006044] (-) TimerEvent: {}
+[2.106465] (-) TimerEvent: {}
+[2.206927] (-) TimerEvent: {}
+[2.307341] (-) TimerEvent: {}
+[2.407905] (-) TimerEvent: {}
+[2.508485] (-) TimerEvent: {}
+[2.609019] (-) TimerEvent: {}
+[2.709922] (-) TimerEvent: {}
+[2.810277] (-) TimerEvent: {}
+[2.910703] (-) TimerEvent: {}
+[3.011239] (-) TimerEvent: {}
+[3.111854] (-) TimerEvent: {}
+[3.212255] (-) TimerEvent: {}
+[3.312784] (-) TimerEvent: {}
+[3.413215] (-) TimerEvent: {}
+[3.513751] (-) TimerEvent: {}
+[3.614351] (-) TimerEvent: {}
+[3.714913] (-) TimerEvent: {}
+[3.815391] (-) TimerEvent: {}
+[3.915935] (-) TimerEvent: {}
+[4.016561] (-) TimerEvent: {}
+[4.116998] (-) TimerEvent: {}
+[4.217523] (-) TimerEvent: {}
+[4.318074] (-) TimerEvent: {}
+[4.418561] (-) TimerEvent: {}
+[4.519020] (-) TimerEvent: {}
+[4.619422] (-) TimerEvent: {}
+[4.719853] (-) TimerEvent: {}
+[4.820290] (-) TimerEvent: {}
+[4.920799] (-) TimerEvent: {}
+[5.021142] (-) TimerEvent: {}
+[5.121567] (-) TimerEvent: {}
+[5.221926] (-) TimerEvent: {}
+[5.322405] (-) TimerEvent: {}
+[5.422975] (-) TimerEvent: {}
+[5.523730] (-) TimerEvent: {}
+[5.624251] (-) TimerEvent: {}
+[5.724828] (-) TimerEvent: {}
+[5.825261] (-) TimerEvent: {}
+[5.925922] (-) TimerEvent: {}
+[6.026250] (-) TimerEvent: {}
+[6.126810] (-) TimerEvent: {}
+[6.227638] (-) TimerEvent: {}
+[6.328219] (-) TimerEvent: {}
+[6.428720] (-) TimerEvent: {}
+[6.529244] (-) TimerEvent: {}
+[6.629763] (-) TimerEvent: {}
+[6.730214] (-) TimerEvent: {}
+[6.830675] (-) TimerEvent: {}
+[6.931107] (-) TimerEvent: {}
+[7.031489] (-) TimerEvent: {}
+[7.131949] (-) TimerEvent: {}
+[7.232431] (-) TimerEvent: {}
+[7.332898] (-) TimerEvent: {}
+[7.433388] (-) TimerEvent: {}
+[7.533976] (-) TimerEvent: {}
+[7.634419] (-) TimerEvent: {}
+[7.734966] (-) TimerEvent: {}
+[7.835401] (-) TimerEvent: {}
+[7.935884] (-) TimerEvent: {}
+[8.036602] (-) TimerEvent: {}
+[8.137208] (-) TimerEvent: {}
+[8.237651] (-) TimerEvent: {}
+[8.338169] (-) TimerEvent: {}
+[8.438582] (-) TimerEvent: {}
+[8.539024] (-) TimerEvent: {}
+[8.639466] (-) TimerEvent: {}
+[8.739996] (-) TimerEvent: {}
+[8.840482] (-) TimerEvent: {}
+[8.941054] (-) TimerEvent: {}
+[9.041410] (-) TimerEvent: {}
+[9.141732] (-) TimerEvent: {}
+[9.242140] (-) TimerEvent: {}
+[9.342693] (-) TimerEvent: {}
+[9.443436] (-) TimerEvent: {}
+[9.543890] (-) TimerEvent: {}
+[9.644483] (-) TimerEvent: {}
+[9.745052] (-) TimerEvent: {}
+[9.845631] (-) TimerEvent: {}
+[9.946054] (-) TimerEvent: {}
+[10.046462] (-) TimerEvent: {}
+[10.146840] (-) TimerEvent: {}
+[10.247321] (-) TimerEvent: {}
+[10.347853] (-) TimerEvent: {}
+[10.448319] (-) TimerEvent: {}
+[10.548807] (-) TimerEvent: {}
+[10.649308] (-) TimerEvent: {}
+[10.749890] (-) TimerEvent: {}
+[10.850347] (-) TimerEvent: {}
+[10.950802] (-) TimerEvent: {}
+[11.051277] (-) TimerEvent: {}
+[11.151834] (-) TimerEvent: {}
+[11.252424] (-) TimerEvent: {}
+[11.352843] (-) TimerEvent: {}
+[11.453269] (-) TimerEvent: {}
+[11.553882] (-) TimerEvent: {}
+[11.654375] (-) TimerEvent: {}
+[11.754856] (-) TimerEvent: {}
+[11.855483] (-) TimerEvent: {}
+[11.955873] (-) TimerEvent: {}
+[12.056306] (-) TimerEvent: {}
+[12.156818] (-) TimerEvent: {}
+[12.257255] (-) TimerEvent: {}
+[12.357680] (-) TimerEvent: {}
+[12.458226] (-) TimerEvent: {}
+[12.558836] (-) TimerEvent: {}
+[12.659286] (-) TimerEvent: {}
+[12.759613] (-) TimerEvent: {}
+[12.860049] (-) TimerEvent: {}
+[12.960705] (-) TimerEvent: {}
+[13.061213] (-) TimerEvent: {}
+[13.161708] (-) TimerEvent: {}
+[13.262262] (-) TimerEvent: {}
+[13.362750] (-) TimerEvent: {}
+[13.463260] (-) TimerEvent: {}
+[13.563714] (-) TimerEvent: {}
+[13.664169] (-) TimerEvent: {}
+[13.764487] (-) TimerEvent: {}
+[13.864921] (-) TimerEvent: {}
+[13.965419] (-) TimerEvent: {}
+[14.065910] (-) TimerEvent: {}
+[14.166355] (-) TimerEvent: {}
+[14.266929] (-) TimerEvent: {}
+[14.367499] (-) TimerEvent: {}
+[14.467988] (-) TimerEvent: {}
+[14.568549] (-) TimerEvent: {}
+[14.669166] (-) TimerEvent: {}
+[14.769621] (-) TimerEvent: {}
+[14.870106] (-) TimerEvent: {}
+[14.970640] (-) TimerEvent: {}
+[15.071140] (-) TimerEvent: {}
+[15.171469] (-) TimerEvent: {}
+[15.272080] (-) TimerEvent: {}
+[15.372561] (-) TimerEvent: {}
+[15.473011] (-) TimerEvent: {}
+[15.573679] (-) TimerEvent: {}
+[15.674001] (-) TimerEvent: {}
+[15.774331] (-) TimerEvent: {}
+[15.874931] (-) TimerEvent: {}
+[15.975498] (-) TimerEvent: {}
+[16.076023] (-) TimerEvent: {}
+[16.176517] (-) TimerEvent: {}
+[16.277018] (-) TimerEvent: {}
+[16.377520] (-) TimerEvent: {}
+[16.478103] (-) TimerEvent: {}
+[16.578613] (-) TimerEvent: {}
+[16.679141] (-) TimerEvent: {}
+[16.779638] (-) TimerEvent: {}
+[16.880110] (-) TimerEvent: {}
+[16.980538] (-) TimerEvent: {}
+[17.081028] (-) TimerEvent: {}
+[17.181579] (-) TimerEvent: {}
+[17.282039] (-) TimerEvent: {}
+[17.382657] (-) TimerEvent: {}
+[17.483177] (-) TimerEvent: {}
+[17.583725] (-) TimerEvent: {}
+[17.684152] (-) TimerEvent: {}
+[17.784505] (-) TimerEvent: {}
+[17.884812] (-) TimerEvent: {}
+[17.985224] (-) TimerEvent: {}
+[18.085698] (-) TimerEvent: {}
+[18.186208] (-) TimerEvent: {}
+[18.286840] (-) TimerEvent: {}
+[18.387338] (-) TimerEvent: {}
+[18.487928] (-) TimerEvent: {}
+[18.588333] (-) TimerEvent: {}
+[18.688931] (-) TimerEvent: {}
+[18.789464] (-) TimerEvent: {}
+[18.889893] (-) TimerEvent: {}
+[18.990337] (-) TimerEvent: {}
+[19.090773] (-) TimerEvent: {}
+[19.191198] (-) TimerEvent: {}
+[19.291672] (-) TimerEvent: {}
+[19.392242] (-) TimerEvent: {}
+[19.468066] (my_package) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[19.492322] (-) TimerEvent: {}
+[19.533664] (my_package) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[19.592422] (-) TimerEvent: {}
+[19.596440] (my_package) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[19.596740] (my_package) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/knolan/ros2_ws2/src/my_package/include>\n'}
+[19.596794] (my_package) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[19.597555] (my_package) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[19.598571] (my_package) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[19.598633] (my_package) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[19.599084] (my_package) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[19.601362] (my_package) StdoutLine: {'line': b'-- Configuring done\n'}
+[19.617384] (my_package) StdoutLine: {'line': b'-- Generating done\n'}
+[19.621715] (my_package) StdoutLine: {'line': b'-- Build files have been written to: /home/knolan/ros2_ws2/build/my_package\n'}
+[19.647567] (my_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[19.648194] (my_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_node\x1b[0m\n'}
+[19.655714] (my_package) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/sub.cpp.o\x1b[0m\n'}
+[19.657460] (my_package) StdoutLine: {'line': b'[ 50%] Built target my_node\n'}
+[19.661409] (my_package) StdoutLine: {'line': b'[ 83%] Built target talker\n'}
+[19.692593] (-) TimerEvent: {}
+[19.793102] (-) TimerEvent: {}
+[19.893426] (-) TimerEvent: {}
+[19.993720] (-) TimerEvent: {}
+[20.094020] (-) TimerEvent: {}
+[20.194348] (-) TimerEvent: {}
+[20.294764] (-) TimerEvent: {}
+[20.395083] (-) TimerEvent: {}
+[20.495659] (-) TimerEvent: {}
+[20.595998] (-) TimerEvent: {}
+[20.696737] (-) TimerEvent: {}
+[20.797167] (-) TimerEvent: {}
+[20.897624] (-) TimerEvent: {}
+[20.997988] (-) TimerEvent: {}
+[21.098609] (-) TimerEvent: {}
+[21.199011] (-) TimerEvent: {}
+[21.299454] (-) TimerEvent: {}
+[21.400277] (-) TimerEvent: {}
+[21.500804] (-) TimerEvent: {}
+[21.601304] (-) TimerEvent: {}
+[21.701806] (-) TimerEvent: {}
+[21.802240] (-) TimerEvent: {}
+[21.902766] (-) TimerEvent: {}
+[22.003161] (-) TimerEvent: {}
+[22.103791] (-) TimerEvent: {}
+[22.204202] (-) TimerEvent: {}
+[22.304669] (-) TimerEvent: {}
+[22.405042] (-) TimerEvent: {}
+[22.505504] (-) TimerEvent: {}
+[22.605928] (-) TimerEvent: {}
+[22.706399] (-) TimerEvent: {}
+[22.807017] (-) TimerEvent: {}
+[22.907563] (-) TimerEvent: {}
+[23.008041] (-) TimerEvent: {}
+[23.108657] (-) TimerEvent: {}
+[23.209395] (-) TimerEvent: {}
+[23.309926] (-) TimerEvent: {}
+[23.410224] (-) TimerEvent: {}
+[23.510526] (-) TimerEvent: {}
+[23.610948] (-) TimerEvent: {}
+[23.711431] (-) TimerEvent: {}
+[23.811918] (-) TimerEvent: {}
+[23.912401] (-) TimerEvent: {}
+[24.012815] (-) TimerEvent: {}
+[24.113221] (-) TimerEvent: {}
+[24.213765] (-) TimerEvent: {}
+[24.314178] (-) TimerEvent: {}
+[24.414683] (-) TimerEvent: {}
+[24.515187] (-) TimerEvent: {}
+[24.615787] (-) TimerEvent: {}
+[24.716334] (-) TimerEvent: {}
+[24.816843] (-) TimerEvent: {}
+[24.917412] (-) TimerEvent: {}
+[25.017878] (-) TimerEvent: {}
+[25.075237] (my_package) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[25.118073] (-) TimerEvent: {}
+[25.218524] (-) TimerEvent: {}
+[25.319084] (-) TimerEvent: {}
+[25.419460] (-) TimerEvent: {}
+[25.519846] (-) TimerEvent: {}
+[25.605861] (my_package) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[25.611947] (my_package) CommandEnded: {'returncode': 0}
+[25.612902] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'install'}
+[25.617818] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/knolan/ros2_ws2/build/my_package'], 'cwd': '/home/knolan/ros2_ws2/build/my_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'knolan'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/knolan/ros2_ws2/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{51855cb2-8cce-5362-8f54-464b92b32386}'), ('HOME', '/home/knolan'), ('OLDPWD', '/home/knolan/ros2_ws2/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/knolan/ros2_ws2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'knolan'), ('NAME', 'HPX360-09'), ('WSL_INTEROP', '/run/WSL/22296_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/TwinCAT/Common64:/mnt/c/TwinCAT/Common32:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/WireGuard/:/mnt/c/Program Files/Fortect:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X64/:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X86/:/mnt/c/Program Files (x86)/Common Files/Pulse Secure/TNC Client Plugin/:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/Meld/:/mnt/c/Users/knolan/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/knolan/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/knolan/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/knolan/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/knolan/.dotnet/tools:/mnt/c/Users/knolan/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/knolan/AppData/Roaming/npm:/snap/bin'), ('WT_SESSION', '81afe777-187f-40a4-8a8c-c102a0f92460'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/knolan/ros2_ws2/install/turtlesim:/home/knolan/ros2_ws2/install/my_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/knolan/ros2_ws2/build/my_package'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/knolan/ros2_ws2/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/knolan/ros2_ws2/install/turtlesim:/home/knolan/ros2_ws2/install/my_package:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[25.620091] (-) TimerEvent: {}
+[25.621826] (my_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[25.623121] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/knolan/ros2_ws2/install/my_package/lib/my_package/talker\n'}
+[25.623685] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/knolan/ros2_ws2/install/my_package/lib/my_package/talker\n'}
+[25.623818] (my_package) StdoutLine: {'line': b'-- Installing: /home/knolan/ros2_ws2/install/my_package/lib/my_package/listener\n'}
+[25.625805] (my_package) StdoutLine: {'line': b'-- Set runtime path of "/home/knolan/ros2_ws2/install/my_package/lib/my_package/listener" to ""\n'}
+[25.626337] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/knolan/ros2_ws2/install/my_package/lib/my_package/my_node\n'}
+[25.626418] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/knolan/ros2_ws2/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package\n'}
+[25.626454] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/knolan/ros2_ws2/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package\n'}
+[25.626485] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/knolan/ros2_ws2/install/my_package/share/my_package/environment/ament_prefix_path.sh\n'}
+[25.626649] (my_package) StdoutLine: {'line': b'-- Installing: /home/knolan/ros2_ws2/install/my_package/share/my_package/environment/ament_prefix_path.dsv\n'}
+[25.627007] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/knolan/ros2_ws2/install/my_package/share/my_package/environment/path.sh\n'}
+[25.627060] (my_package) StdoutLine: {'line': b'-- Installing: /home/knolan/ros2_ws2/install/my_package/share/my_package/environment/path.dsv\n'}
+[25.627173] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/knolan/ros2_ws2/install/my_package/share/my_package/local_setup.bash\n'}
+[25.627240] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/knolan/ros2_ws2/install/my_package/share/my_package/local_setup.sh\n'}
+[25.627279] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/knolan/ros2_ws2/install/my_package/share/my_package/local_setup.zsh\n'}
+[25.627310] (my_package) StdoutLine: {'line': b'-- Installing: /home/knolan/ros2_ws2/install/my_package/share/my_package/local_setup.dsv\n'}
+[25.628001] (my_package) StdoutLine: {'line': b'-- Installing: /home/knolan/ros2_ws2/install/my_package/share/my_package/package.dsv\n'}
+[25.628107] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/knolan/ros2_ws2/install/my_package/share/ament_index/resource_index/packages/my_package\n'}
+[25.628175] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/knolan/ros2_ws2/install/my_package/share/my_package/cmake/my_packageConfig.cmake\n'}
+[25.628236] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/knolan/ros2_ws2/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake\n'}
+[25.628295] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/knolan/ros2_ws2/install/my_package/share/my_package/package.xml\n'}
+[25.629880] (my_package) CommandEnded: {'returncode': 0}
+[25.651001] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[25.651876] (-) EventReactorShutdown: {}

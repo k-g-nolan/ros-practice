@@ -1,0 +1,53 @@
+[0.016s] Invoking command in '/home/knolan/ros2_ws2/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/knolan/ros2_ws2/build/my_package -- -j12 -l12
+[0.114s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.258s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.763s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.766s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.774s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.786s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.804s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.849s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.852s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[19.468s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[19.534s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[19.596s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[19.597s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/knolan/ros2_ws2/src/my_package/include>
+[19.597s] -- Configured cppcheck exclude dirs and/or files: 
+[19.597s] -- Added test 'lint_cmake' to check CMake code style
+[19.598s] -- Added test 'uncrustify' to check C / C++ code style
+[19.598s] -- Configured uncrustify additional arguments: 
+[19.599s] -- Added test 'xmllint' to check XML markup files
+[19.601s] -- Configuring done
+[19.617s] -- Generating done
+[19.622s] -- Build files have been written to: /home/knolan/ros2_ws2/build/my_package
+[19.648s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[19.648s] [35m[1mConsolidate compiler generated dependencies of target my_node[0m
+[19.656s] [ 16%] [32mBuilding CXX object CMakeFiles/listener.dir/src/sub.cpp.o[0m
+[19.657s] [ 50%] Built target my_node
+[19.661s] [ 83%] Built target talker
+[25.075s] [100%] [32m[1mLinking CXX executable listener[0m
+[25.606s] [100%] Built target listener
+[25.612s] Invoked command in '/home/knolan/ros2_ws2/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/knolan/ros2_ws2/build/my_package -- -j12 -l12
+[25.618s] Invoking command in '/home/knolan/ros2_ws2/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/knolan/ros2_ws2/build/my_package
+[25.622s] -- Install configuration: ""
+[25.623s] -- Up-to-date: /home/knolan/ros2_ws2/install/my_package/lib/my_package/talker
+[25.624s] -- Up-to-date: /home/knolan/ros2_ws2/install/my_package/lib/my_package/talker
+[25.624s] -- Installing: /home/knolan/ros2_ws2/install/my_package/lib/my_package/listener
+[25.626s] -- Set runtime path of "/home/knolan/ros2_ws2/install/my_package/lib/my_package/listener" to ""
+[25.626s] -- Up-to-date: /home/knolan/ros2_ws2/install/my_package/lib/my_package/my_node
+[25.626s] -- Up-to-date: /home/knolan/ros2_ws2/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[25.626s] -- Up-to-date: /home/knolan/ros2_ws2/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[25.626s] -- Up-to-date: /home/knolan/ros2_ws2/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[25.627s] -- Installing: /home/knolan/ros2_ws2/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[25.627s] -- Up-to-date: /home/knolan/ros2_ws2/install/my_package/share/my_package/environment/path.sh
+[25.627s] -- Installing: /home/knolan/ros2_ws2/install/my_package/share/my_package/environment/path.dsv
+[25.627s] -- Up-to-date: /home/knolan/ros2_ws2/install/my_package/share/my_package/local_setup.bash
+[25.627s] -- Up-to-date: /home/knolan/ros2_ws2/install/my_package/share/my_package/local_setup.sh
+[25.627s] -- Up-to-date: /home/knolan/ros2_ws2/install/my_package/share/my_package/local_setup.zsh
+[25.627s] -- Installing: /home/knolan/ros2_ws2/install/my_package/share/my_package/local_setup.dsv
+[25.628s] -- Installing: /home/knolan/ros2_ws2/install/my_package/share/my_package/package.dsv
+[25.628s] -- Up-to-date: /home/knolan/ros2_ws2/install/my_package/share/ament_index/resource_index/packages/my_package
+[25.628s] -- Up-to-date: /home/knolan/ros2_ws2/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[25.628s] -- Up-to-date: /home/knolan/ros2_ws2/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[25.628s] -- Up-to-date: /home/knolan/ros2_ws2/install/my_package/share/my_package/package.xml
+[25.630s] Invoked command in '/home/knolan/ros2_ws2/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/knolan/ros2_ws2/build/my_package
