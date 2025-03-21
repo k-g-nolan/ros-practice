@@ -1,0 +1,337 @@
+[0.000000] (-) TimerEvent: {}
+[0.000939] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001025] (my_service) JobQueued: {'identifier': 'my_service', 'dependencies': OrderedDict()}
+[0.001061] (my_service) JobStarted: {'identifier': 'my_service'}
+[0.014325] (my_service) JobProgress: {'identifier': 'my_service', 'progress': 'cmake'}
+[0.015323] (my_service) Command: {'cmd': ['/usr/bin/cmake', '/home/knolan/ros-practice/src/my_service', '-DCMAKE_INSTALL_PREFIX=/home/knolan/ros-practice/install/my_service'], 'cwd': '/home/knolan/ros-practice/build/my_service', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'knolan'), ('SSH_AGENT_PID', '42170'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/knolan/ros-practice/install/turtlesim/lib:/home/knolan/ros2_ws2/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{51855cb2-8cce-5362-8f54-464b92b32386}'), ('HOME', '/home/knolan'), ('OLDPWD', '/home/knolan/ros-practice/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/knolan/ros-practice/install:/home/knolan/ros2_ws2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'knolan'), ('NAME', 'HPX360-09'), ('WSL_INTEROP', '/run/WSL/22296_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/TwinCAT/Common64:/mnt/c/TwinCAT/Common32:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/WireGuard/:/mnt/c/Program Files/Fortect:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X64/:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X86/:/mnt/c/Program Files (x86)/Common Files/Pulse Secure/TNC Client Plugin/:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/Meld/:/mnt/c/Users/knolan/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/knolan/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/knolan/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/knolan/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/knolan/.dotnet/tools:/mnt/c/Users/knolan/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/knolan/AppData/Roaming/npm:/snap/bin'), ('WT_SESSION', '81afe777-187f-40a4-8a8c-c102a0f92460'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXFfVy4b/agent.42169'), ('AMENT_PREFIX_PATH', '/home/knolan/ros-practice/install/turtlesim:/home/knolan/ros-practice/install/my_package:/home/knolan/ros2_ws2/install/turtlesim:/home/knolan/ros2_ws2/install/my_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/knolan/ros-practice/build/my_service'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/knolan/ros-practice/install/turtlesim/local/lib/python3.10/dist-packages:/home/knolan/ros2_ws2/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/knolan/ros-practice/install/turtlesim:/home/knolan/ros-practice/install/my_package:/home/knolan/ros2_ws2/install/turtlesim:/home/knolan/ros2_ws2/install/my_package:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.100099] (-) TimerEvent: {}
+[0.200611] (-) TimerEvent: {}
+[0.301194] (-) TimerEvent: {}
+[0.401757] (-) TimerEvent: {}
+[0.502293] (-) TimerEvent: {}
+[0.602760] (-) TimerEvent: {}
+[0.612247] (my_service) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.703024] (-) TimerEvent: {}
+[0.803597] (-) TimerEvent: {}
+[0.904070] (-) TimerEvent: {}
+[1.004379] (-) TimerEvent: {}
+[1.104751] (-) TimerEvent: {}
+[1.205302] (-) TimerEvent: {}
+[1.305824] (-) TimerEvent: {}
+[1.406423] (-) TimerEvent: {}
+[1.506993] (-) TimerEvent: {}
+[1.607448] (-) TimerEvent: {}
+[1.708096] (-) TimerEvent: {}
+[1.808577] (-) TimerEvent: {}
+[1.909054] (-) TimerEvent: {}
+[2.009547] (-) TimerEvent: {}
+[2.109991] (-) TimerEvent: {}
+[2.210440] (-) TimerEvent: {}
+[2.310868] (-) TimerEvent: {}
+[2.411335] (-) TimerEvent: {}
+[2.413372] (my_service) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.511530] (-) TimerEvent: {}
+[2.612053] (-) TimerEvent: {}
+[2.712569] (-) TimerEvent: {}
+[2.813113] (-) TimerEvent: {}
+[2.913614] (-) TimerEvent: {}
+[3.014136] (-) TimerEvent: {}
+[3.114530] (-) TimerEvent: {}
+[3.215067] (-) TimerEvent: {}
+[3.315696] (-) TimerEvent: {}
+[3.416213] (-) TimerEvent: {}
+[3.516780] (-) TimerEvent: {}
+[3.617237] (-) TimerEvent: {}
+[3.717737] (-) TimerEvent: {}
+[3.818102] (-) TimerEvent: {}
+[3.829642] (my_service) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.918264] (-) TimerEvent: {}
+[4.018754] (-) TimerEvent: {}
+[4.119309] (-) TimerEvent: {}
+[4.216511] (my_service) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.219575] (-) TimerEvent: {}
+[4.220800] (my_service) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.221492] (my_service) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.222439] (my_service) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.226464] (my_service) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.319921] (-) TimerEvent: {}
+[4.420474] (-) TimerEvent: {}
+[4.520954] (-) TimerEvent: {}
+[4.545046] (my_service) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.549821] (my_service) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.549897] (my_service) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.550358] (my_service) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.558733] (my_service) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.621259] (-) TimerEvent: {}
+[4.666140] (my_service) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.721401] (-) TimerEvent: {}
+[4.759564] (my_service) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.821665] (-) TimerEvent: {}
+[4.922259] (-) TimerEvent: {}
+[5.022916] (-) TimerEvent: {}
+[5.123495] (-) TimerEvent: {}
+[5.224019] (-) TimerEvent: {}
+[5.255625] (my_service) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[5.259960] (my_service) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.268206] (my_service) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[5.283941] (my_service) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.300411] (my_service) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.324126] (-) TimerEvent: {}
+[5.353715] (my_service) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[5.358297] (my_service) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.424252] (-) TimerEvent: {}
+[5.524675] (-) TimerEvent: {}
+[5.625177] (-) TimerEvent: {}
+[5.725683] (-) TimerEvent: {}
+[5.826019] (-) TimerEvent: {}
+[5.926442] (-) TimerEvent: {}
+[6.026916] (-) TimerEvent: {}
+[6.127422] (-) TimerEvent: {}
+[6.227849] (-) TimerEvent: {}
+[6.328280] (-) TimerEvent: {}
+[6.428748] (-) TimerEvent: {}
+[6.529221] (-) TimerEvent: {}
+[6.629686] (-) TimerEvent: {}
+[6.730481] (-) TimerEvent: {}
+[6.831039] (-) TimerEvent: {}
+[6.931361] (-) TimerEvent: {}
+[7.031686] (-) TimerEvent: {}
+[7.132064] (-) TimerEvent: {}
+[7.232450] (-) TimerEvent: {}
+[7.332974] (-) TimerEvent: {}
+[7.433582] (-) TimerEvent: {}
+[7.534054] (-) TimerEvent: {}
+[7.634481] (-) TimerEvent: {}
+[7.735035] (-) TimerEvent: {}
+[7.835345] (-) TimerEvent: {}
+[7.935760] (-) TimerEvent: {}
+[8.036151] (-) TimerEvent: {}
+[8.136554] (-) TimerEvent: {}
+[8.236892] (-) TimerEvent: {}
+[8.337291] (-) TimerEvent: {}
+[8.437720] (-) TimerEvent: {}
+[8.538122] (-) TimerEvent: {}
+[8.638433] (-) TimerEvent: {}
+[8.738828] (-) TimerEvent: {}
+[8.839143] (-) TimerEvent: {}
+[8.939436] (-) TimerEvent: {}
+[9.039874] (-) TimerEvent: {}
+[9.140188] (-) TimerEvent: {}
+[9.240526] (-) TimerEvent: {}
+[9.340857] (-) TimerEvent: {}
+[9.441232] (-) TimerEvent: {}
+[9.541578] (-) TimerEvent: {}
+[9.641969] (-) TimerEvent: {}
+[9.742300] (-) TimerEvent: {}
+[9.842731] (-) TimerEvent: {}
+[9.943263] (-) TimerEvent: {}
+[10.043737] (-) TimerEvent: {}
+[10.144309] (-) TimerEvent: {}
+[10.244700] (-) TimerEvent: {}
+[10.345234] (-) TimerEvent: {}
+[10.445834] (-) TimerEvent: {}
+[10.546381] (-) TimerEvent: {}
+[10.596887] (my_service) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[10.646539] (-) TimerEvent: {}
+[10.746972] (-) TimerEvent: {}
+[10.847276] (-) TimerEvent: {}
+[10.947766] (-) TimerEvent: {}
+[11.048559] (-) TimerEvent: {}
+[11.149032] (-) TimerEvent: {}
+[11.249390] (-) TimerEvent: {}
+[11.349985] (-) TimerEvent: {}
+[11.450617] (-) TimerEvent: {}
+[11.551045] (-) TimerEvent: {}
+[11.651600] (-) TimerEvent: {}
+[11.752188] (-) TimerEvent: {}
+[11.852564] (-) TimerEvent: {}
+[11.953047] (-) TimerEvent: {}
+[12.053656] (-) TimerEvent: {}
+[12.154091] (-) TimerEvent: {}
+[12.254516] (-) TimerEvent: {}
+[12.355049] (-) TimerEvent: {}
+[12.455635] (-) TimerEvent: {}
+[12.556147] (-) TimerEvent: {}
+[12.656678] (-) TimerEvent: {}
+[12.757197] (-) TimerEvent: {}
+[12.857603] (-) TimerEvent: {}
+[12.958223] (-) TimerEvent: {}
+[13.058954] (-) TimerEvent: {}
+[13.159472] (-) TimerEvent: {}
+[13.259831] (-) TimerEvent: {}
+[13.360362] (-) TimerEvent: {}
+[13.460964] (-) TimerEvent: {}
+[13.561445] (-) TimerEvent: {}
+[13.661930] (-) TimerEvent: {}
+[13.762516] (-) TimerEvent: {}
+[13.863180] (-) TimerEvent: {}
+[13.963836] (-) TimerEvent: {}
+[14.064437] (-) TimerEvent: {}
+[14.165045] (-) TimerEvent: {}
+[14.265560] (-) TimerEvent: {}
+[14.366204] (-) TimerEvent: {}
+[14.466692] (-) TimerEvent: {}
+[14.567080] (-) TimerEvent: {}
+[14.667446] (-) TimerEvent: {}
+[14.768182] (-) TimerEvent: {}
+[14.868843] (-) TimerEvent: {}
+[14.969394] (-) TimerEvent: {}
+[15.069829] (-) TimerEvent: {}
+[15.170484] (-) TimerEvent: {}
+[15.271093] (-) TimerEvent: {}
+[15.371567] (-) TimerEvent: {}
+[15.472111] (-) TimerEvent: {}
+[15.572571] (-) TimerEvent: {}
+[15.673081] (-) TimerEvent: {}
+[15.773512] (-) TimerEvent: {}
+[15.873997] (-) TimerEvent: {}
+[15.974491] (-) TimerEvent: {}
+[16.074905] (-) TimerEvent: {}
+[16.175393] (-) TimerEvent: {}
+[16.275905] (-) TimerEvent: {}
+[16.376528] (-) TimerEvent: {}
+[16.477025] (-) TimerEvent: {}
+[16.577409] (-) TimerEvent: {}
+[16.626234] (my_service) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[16.677617] (-) TimerEvent: {}
+[16.778122] (-) TimerEvent: {}
+[16.878626] (-) TimerEvent: {}
+[16.979175] (-) TimerEvent: {}
+[17.079624] (-) TimerEvent: {}
+[17.180096] (-) TimerEvent: {}
+[17.280615] (-) TimerEvent: {}
+[17.381166] (-) TimerEvent: {}
+[17.481574] (-) TimerEvent: {}
+[17.582026] (-) TimerEvent: {}
+[17.682549] (-) TimerEvent: {}
+[17.783008] (-) TimerEvent: {}
+[17.883648] (-) TimerEvent: {}
+[17.984225] (-) TimerEvent: {}
+[18.084690] (-) TimerEvent: {}
+[18.185136] (-) TimerEvent: {}
+[18.285547] (-) TimerEvent: {}
+[18.386071] (-) TimerEvent: {}
+[18.486669] (-) TimerEvent: {}
+[18.587022] (-) TimerEvent: {}
+[18.687585] (-) TimerEvent: {}
+[18.788072] (-) TimerEvent: {}
+[18.888529] (-) TimerEvent: {}
+[18.989007] (-) TimerEvent: {}
+[19.089613] (-) TimerEvent: {}
+[19.190175] (-) TimerEvent: {}
+[19.290624] (-) TimerEvent: {}
+[19.391053] (-) TimerEvent: {}
+[19.491553] (-) TimerEvent: {}
+[19.592071] (-) TimerEvent: {}
+[19.692555] (-) TimerEvent: {}
+[19.793040] (-) TimerEvent: {}
+[19.893484] (-) TimerEvent: {}
+[19.993970] (-) TimerEvent: {}
+[20.094632] (-) TimerEvent: {}
+[20.195084] (-) TimerEvent: {}
+[20.295591] (-) TimerEvent: {}
+[20.396001] (-) TimerEvent: {}
+[20.496535] (-) TimerEvent: {}
+[20.597049] (-) TimerEvent: {}
+[20.697486] (-) TimerEvent: {}
+[20.797998] (-) TimerEvent: {}
+[20.898692] (-) TimerEvent: {}
+[20.999114] (-) TimerEvent: {}
+[21.099564] (-) TimerEvent: {}
+[21.200332] (-) TimerEvent: {}
+[21.300881] (-) TimerEvent: {}
+[21.401223] (-) TimerEvent: {}
+[21.501691] (-) TimerEvent: {}
+[21.602206] (-) TimerEvent: {}
+[21.702726] (-) TimerEvent: {}
+[21.803375] (-) TimerEvent: {}
+[21.903763] (-) TimerEvent: {}
+[22.004308] (-) TimerEvent: {}
+[22.104817] (-) TimerEvent: {}
+[22.205238] (-) TimerEvent: {}
+[22.305729] (-) TimerEvent: {}
+[22.406154] (-) TimerEvent: {}
+[22.506717] (-) TimerEvent: {}
+[22.607167] (-) TimerEvent: {}
+[22.707639] (-) TimerEvent: {}
+[22.808263] (-) TimerEvent: {}
+[22.908781] (-) TimerEvent: {}
+[23.009304] (-) TimerEvent: {}
+[23.110068] (-) TimerEvent: {}
+[23.210539] (-) TimerEvent: {}
+[23.310953] (-) TimerEvent: {}
+[23.411340] (-) TimerEvent: {}
+[23.511944] (-) TimerEvent: {}
+[23.612527] (-) TimerEvent: {}
+[23.713145] (-) TimerEvent: {}
+[23.813716] (-) TimerEvent: {}
+[23.914264] (-) TimerEvent: {}
+[24.014755] (-) TimerEvent: {}
+[24.115235] (-) TimerEvent: {}
+[24.215725] (-) TimerEvent: {}
+[24.316211] (-) TimerEvent: {}
+[24.416606] (-) TimerEvent: {}
+[24.517053] (-) TimerEvent: {}
+[24.617557] (-) TimerEvent: {}
+[24.718103] (-) TimerEvent: {}
+[24.818508] (-) TimerEvent: {}
+[24.919148] (-) TimerEvent: {}
+[25.019663] (-) TimerEvent: {}
+[25.120210] (-) TimerEvent: {}
+[25.220861] (-) TimerEvent: {}
+[25.321407] (-) TimerEvent: {}
+[25.421865] (-) TimerEvent: {}
+[25.522551] (-) TimerEvent: {}
+[25.623016] (-) TimerEvent: {}
+[25.723580] (-) TimerEvent: {}
+[25.824143] (-) TimerEvent: {}
+[25.924516] (-) TimerEvent: {}
+[26.024999] (-) TimerEvent: {}
+[26.125597] (-) TimerEvent: {}
+[26.226232] (-) TimerEvent: {}
+[26.326756] (-) TimerEvent: {}
+[26.427320] (-) TimerEvent: {}
+[26.527744] (-) TimerEvent: {}
+[26.621148] (my_service) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[26.627913] (-) TimerEvent: {}
+[26.642322] (my_service) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[26.728158] (-) TimerEvent: {}
+[26.829202] (-) TimerEvent: {}
+[26.929620] (-) TimerEvent: {}
+[27.009935] (my_service) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[27.010669] (my_service) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[27.029801] (-) TimerEvent: {}
+[27.130195] (-) TimerEvent: {}
+[27.230755] (-) TimerEvent: {}
+[27.331275] (-) TimerEvent: {}
+[27.357938] (my_service) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[27.359098] (my_service) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[27.423536] (my_service) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)\n'}
+[27.431355] (-) TimerEvent: {}
+[27.475955] (my_service) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[27.531471] (-) TimerEvent: {}
+[27.539994] (my_service) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[27.540227] (my_service) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[27.540286] (my_service) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[27.541122] (my_service) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[27.542153] (my_service) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[27.542254] (my_service) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[27.542767] (my_service) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[27.544209] (my_service) StdoutLine: {'line': b'-- Configuring done\n'}
+[27.545754] (my_service) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:13 (add_executable):\n'}
+[27.545851] (my_service) StderrLine: {'line': b'  Cannot find source file:\n'}
+[27.545885] (my_service) StderrLine: {'line': b'\n'}
+[27.545914] (my_service) StderrLine: {'line': b'    src/add_server.cpp\n'}
+[27.545941] (my_service) StderrLine: {'line': b'\n'}
+[27.545968] (my_service) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h\n'}
+[27.545997] (my_service) StderrLine: {'line': b'  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc\n'}
+[27.546024] (my_service) StderrLine: {'line': b'\n'}
+[27.546050] (my_service) StderrLine: {'line': b'\x1b[0m\n'}
+[27.546528] (my_service) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:13 (add_executable):\n'}
+[27.546637] (my_service) StderrLine: {'line': b'  No SOURCES given to target: server\n'}
+[27.546702] (my_service) StderrLine: {'line': b'\n'}
+[27.546762] (my_service) StderrLine: {'line': b'\x1b[0m\n'}
+[27.546821] (my_service) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[27.554601] (my_service) CommandEnded: {'returncode': 1}
+[27.576057] (my_service) JobEnded: {'identifier': 'my_service', 'rc': 1}
+[27.587454] (-) EventReactorShutdown: {}

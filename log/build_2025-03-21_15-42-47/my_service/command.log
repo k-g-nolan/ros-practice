@@ -1,0 +1,2 @@
+Invoking command in '/home/knolan/ros-practice/build/my_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/knolan/ros-practice/src/my_service -DCMAKE_INSTALL_PREFIX=/home/knolan/ros-practice/install/my_service
+Invoked command in '/home/knolan/ros-practice/build/my_service' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/knolan/ros-practice/src/my_service -DCMAKE_INSTALL_PREFIX=/home/knolan/ros-practice/install/my_service

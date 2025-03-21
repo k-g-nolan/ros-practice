@@ -1,0 +1,260 @@
+[0.000000] (-) TimerEvent: {}
+[0.000290] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000325] (my_service) JobQueued: {'identifier': 'my_service', 'dependencies': OrderedDict()}
+[0.000340] (my_service) JobStarted: {'identifier': 'my_service'}
+[0.011331] (my_service) JobProgress: {'identifier': 'my_service', 'progress': 'cmake'}
+[0.012234] (my_service) Command: {'cmd': ['/usr/bin/cmake', '/home/knolan/ros-practice/src/my_service', '-DCMAKE_INSTALL_PREFIX=/home/knolan/ros-practice/install/my_service'], 'cwd': '/home/knolan/ros-practice/build/my_service', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'knolan'), ('SSH_AGENT_PID', '42170'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/knolan/ros-practice/install/turtlesim/lib:/home/knolan/ros2_ws2/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{51855cb2-8cce-5362-8f54-464b92b32386}'), ('HOME', '/home/knolan'), ('OLDPWD', '/home/knolan/ros-practice/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/knolan/ros-practice/install:/home/knolan/ros2_ws2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'knolan'), ('NAME', 'HPX360-09'), ('WSL_INTEROP', '/run/WSL/22296_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/TwinCAT/Common64:/mnt/c/TwinCAT/Common32:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/WireGuard/:/mnt/c/Program Files/Fortect:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X64/:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X86/:/mnt/c/Program Files (x86)/Common Files/Pulse Secure/TNC Client Plugin/:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/Meld/:/mnt/c/Users/knolan/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/knolan/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/knolan/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/knolan/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/knolan/.dotnet/tools:/mnt/c/Users/knolan/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/knolan/AppData/Roaming/npm:/snap/bin'), ('WT_SESSION', '81afe777-187f-40a4-8a8c-c102a0f92460'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXFfVy4b/agent.42169'), ('AMENT_PREFIX_PATH', '/home/knolan/ros-practice/install/turtlesim:/home/knolan/ros-practice/install/my_package:/home/knolan/ros2_ws2/install/turtlesim:/home/knolan/ros2_ws2/install/my_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/knolan/ros-practice/build/my_service'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/knolan/ros-practice/install/turtlesim/local/lib/python3.10/dist-packages:/home/knolan/ros2_ws2/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/knolan/ros-practice/install/turtlesim:/home/knolan/ros-practice/install/my_package:/home/knolan/ros2_ws2/install/turtlesim:/home/knolan/ros2_ws2/install/my_package:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.090035] (my_service) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099623] (-) TimerEvent: {}
+[0.199906] (-) TimerEvent: {}
+[0.215068] (my_service) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.300228] (-) TimerEvent: {}
+[0.400840] (-) TimerEvent: {}
+[0.501290] (-) TimerEvent: {}
+[0.601750] (-) TimerEvent: {}
+[0.680645] (my_service) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.684610] (my_service) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.692798] (my_service) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.701955] (-) TimerEvent: {}
+[0.706614] (my_service) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.721365] (my_service) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.762768] (my_service) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.765973] (my_service) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.802067] (-) TimerEvent: {}
+[0.902395] (-) TimerEvent: {}
+[1.002939] (-) TimerEvent: {}
+[1.103337] (-) TimerEvent: {}
+[1.203875] (-) TimerEvent: {}
+[1.304357] (-) TimerEvent: {}
+[1.404951] (-) TimerEvent: {}
+[1.505410] (-) TimerEvent: {}
+[1.605863] (-) TimerEvent: {}
+[1.706307] (-) TimerEvent: {}
+[1.806682] (-) TimerEvent: {}
+[1.907191] (-) TimerEvent: {}
+[2.007823] (-) TimerEvent: {}
+[2.108308] (-) TimerEvent: {}
+[2.208652] (-) TimerEvent: {}
+[2.309136] (-) TimerEvent: {}
+[2.409577] (-) TimerEvent: {}
+[2.510041] (-) TimerEvent: {}
+[2.610733] (-) TimerEvent: {}
+[2.711300] (-) TimerEvent: {}
+[2.811735] (-) TimerEvent: {}
+[2.912322] (-) TimerEvent: {}
+[3.013028] (-) TimerEvent: {}
+[3.113607] (-) TimerEvent: {}
+[3.214072] (-) TimerEvent: {}
+[3.314717] (-) TimerEvent: {}
+[3.415143] (-) TimerEvent: {}
+[3.515685] (-) TimerEvent: {}
+[3.616310] (-) TimerEvent: {}
+[3.716779] (-) TimerEvent: {}
+[3.817242] (-) TimerEvent: {}
+[3.917719] (-) TimerEvent: {}
+[4.018161] (-) TimerEvent: {}
+[4.118638] (-) TimerEvent: {}
+[4.219212] (-) TimerEvent: {}
+[4.319654] (-) TimerEvent: {}
+[4.420114] (-) TimerEvent: {}
+[4.520581] (-) TimerEvent: {}
+[4.621044] (-) TimerEvent: {}
+[4.721469] (-) TimerEvent: {}
+[4.821922] (-) TimerEvent: {}
+[4.922416] (-) TimerEvent: {}
+[5.022888] (-) TimerEvent: {}
+[5.123487] (-) TimerEvent: {}
+[5.224203] (-) TimerEvent: {}
+[5.324798] (-) TimerEvent: {}
+[5.425256] (-) TimerEvent: {}
+[5.525796] (-) TimerEvent: {}
+[5.626435] (-) TimerEvent: {}
+[5.726939] (-) TimerEvent: {}
+[5.827311] (-) TimerEvent: {}
+[5.927784] (-) TimerEvent: {}
+[6.028318] (-) TimerEvent: {}
+[6.128782] (-) TimerEvent: {}
+[6.229225] (-) TimerEvent: {}
+[6.329730] (-) TimerEvent: {}
+[6.430238] (-) TimerEvent: {}
+[6.530708] (-) TimerEvent: {}
+[6.631147] (-) TimerEvent: {}
+[6.731666] (-) TimerEvent: {}
+[6.832183] (-) TimerEvent: {}
+[6.932773] (-) TimerEvent: {}
+[7.033422] (-) TimerEvent: {}
+[7.133883] (-) TimerEvent: {}
+[7.234582] (-) TimerEvent: {}
+[7.335050] (-) TimerEvent: {}
+[7.435418] (-) TimerEvent: {}
+[7.535835] (-) TimerEvent: {}
+[7.636320] (-) TimerEvent: {}
+[7.736727] (-) TimerEvent: {}
+[7.837127] (-) TimerEvent: {}
+[7.937480] (-) TimerEvent: {}
+[8.037890] (-) TimerEvent: {}
+[8.138227] (-) TimerEvent: {}
+[8.238651] (-) TimerEvent: {}
+[8.339197] (-) TimerEvent: {}
+[8.439846] (-) TimerEvent: {}
+[8.540464] (-) TimerEvent: {}
+[8.641106] (-) TimerEvent: {}
+[8.741548] (-) TimerEvent: {}
+[8.842094] (-) TimerEvent: {}
+[8.942532] (-) TimerEvent: {}
+[9.042879] (-) TimerEvent: {}
+[9.143407] (-) TimerEvent: {}
+[9.243869] (-) TimerEvent: {}
+[9.344349] (-) TimerEvent: {}
+[9.444864] (-) TimerEvent: {}
+[9.545381] (-) TimerEvent: {}
+[9.645924] (-) TimerEvent: {}
+[9.746385] (-) TimerEvent: {}
+[9.847046] (-) TimerEvent: {}
+[9.947708] (-) TimerEvent: {}
+[10.048294] (-) TimerEvent: {}
+[10.148731] (-) TimerEvent: {}
+[10.249180] (-) TimerEvent: {}
+[10.349530] (-) TimerEvent: {}
+[10.450045] (-) TimerEvent: {}
+[10.550517] (-) TimerEvent: {}
+[10.650975] (-) TimerEvent: {}
+[10.751676] (-) TimerEvent: {}
+[10.852183] (-) TimerEvent: {}
+[10.952680] (-) TimerEvent: {}
+[11.053178] (-) TimerEvent: {}
+[11.153647] (-) TimerEvent: {}
+[11.254314] (-) TimerEvent: {}
+[11.354871] (-) TimerEvent: {}
+[11.455394] (-) TimerEvent: {}
+[11.555970] (-) TimerEvent: {}
+[11.656560] (-) TimerEvent: {}
+[11.756954] (-) TimerEvent: {}
+[11.857478] (-) TimerEvent: {}
+[11.957937] (-) TimerEvent: {}
+[12.058617] (-) TimerEvent: {}
+[12.159059] (-) TimerEvent: {}
+[12.259505] (-) TimerEvent: {}
+[12.359933] (-) TimerEvent: {}
+[12.460405] (-) TimerEvent: {}
+[12.561102] (-) TimerEvent: {}
+[12.661667] (-) TimerEvent: {}
+[12.762151] (-) TimerEvent: {}
+[12.862780] (-) TimerEvent: {}
+[12.963252] (-) TimerEvent: {}
+[13.063705] (-) TimerEvent: {}
+[13.164197] (-) TimerEvent: {}
+[13.264576] (-) TimerEvent: {}
+[13.365005] (-) TimerEvent: {}
+[13.465529] (-) TimerEvent: {}
+[13.565987] (-) TimerEvent: {}
+[13.666392] (-) TimerEvent: {}
+[13.766764] (-) TimerEvent: {}
+[13.867254] (-) TimerEvent: {}
+[13.967683] (-) TimerEvent: {}
+[14.068251] (-) TimerEvent: {}
+[14.168716] (-) TimerEvent: {}
+[14.269135] (-) TimerEvent: {}
+[14.369534] (-) TimerEvent: {}
+[14.469883] (-) TimerEvent: {}
+[14.570309] (-) TimerEvent: {}
+[14.670783] (-) TimerEvent: {}
+[14.771182] (-) TimerEvent: {}
+[14.871674] (-) TimerEvent: {}
+[14.972339] (-) TimerEvent: {}
+[15.072958] (-) TimerEvent: {}
+[15.173369] (-) TimerEvent: {}
+[15.273804] (-) TimerEvent: {}
+[15.374287] (-) TimerEvent: {}
+[15.474867] (-) TimerEvent: {}
+[15.575507] (-) TimerEvent: {}
+[15.676025] (-) TimerEvent: {}
+[15.776395] (-) TimerEvent: {}
+[15.876899] (-) TimerEvent: {}
+[15.977397] (-) TimerEvent: {}
+[16.077870] (-) TimerEvent: {}
+[16.178303] (-) TimerEvent: {}
+[16.278781] (-) TimerEvent: {}
+[16.379227] (-) TimerEvent: {}
+[16.479921] (-) TimerEvent: {}
+[16.580419] (-) TimerEvent: {}
+[16.680857] (-) TimerEvent: {}
+[16.781245] (-) TimerEvent: {}
+[16.881828] (-) TimerEvent: {}
+[16.982577] (-) TimerEvent: {}
+[17.082869] (-) TimerEvent: {}
+[17.183203] (-) TimerEvent: {}
+[17.201630] (my_service) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[17.266648] (my_service) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)\n'}
+[17.283324] (-) TimerEvent: {}
+[17.357436] (my_service) StdoutLine: {'line': b'-- Configuring done\n'}
+[17.369758] (my_service) StdoutLine: {'line': b'-- Generating done\n'}
+[17.373623] (my_service) StdoutLine: {'line': b'-- Build files have been written to: /home/knolan/ros-practice/build/my_service\n'}
+[17.383417] (-) TimerEvent: {}
+[17.384338] (my_service) CommandEnded: {'returncode': 0}
+[17.386662] (my_service) JobProgress: {'identifier': 'my_service', 'progress': 'build'}
+[17.386721] (my_service) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/knolan/ros-practice/build/my_service', '--', '-j12', '-l12'], 'cwd': '/home/knolan/ros-practice/build/my_service', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'knolan'), ('SSH_AGENT_PID', '42170'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/knolan/ros-practice/install/turtlesim/lib:/home/knolan/ros2_ws2/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{51855cb2-8cce-5362-8f54-464b92b32386}'), ('HOME', '/home/knolan'), ('OLDPWD', '/home/knolan/ros-practice/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/knolan/ros-practice/install:/home/knolan/ros2_ws2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'knolan'), ('NAME', 'HPX360-09'), ('WSL_INTEROP', '/run/WSL/22296_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/TwinCAT/Common64:/mnt/c/TwinCAT/Common32:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/WireGuard/:/mnt/c/Program Files/Fortect:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X64/:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X86/:/mnt/c/Program Files (x86)/Common Files/Pulse Secure/TNC Client Plugin/:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/Meld/:/mnt/c/Users/knolan/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/knolan/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/knolan/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/knolan/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/knolan/.dotnet/tools:/mnt/c/Users/knolan/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/knolan/AppData/Roaming/npm:/snap/bin'), ('WT_SESSION', '81afe777-187f-40a4-8a8c-c102a0f92460'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXFfVy4b/agent.42169'), ('AMENT_PREFIX_PATH', '/home/knolan/ros-practice/install/turtlesim:/home/knolan/ros-practice/install/my_package:/home/knolan/ros2_ws2/install/turtlesim:/home/knolan/ros2_ws2/install/my_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/knolan/ros-practice/build/my_service'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/knolan/ros-practice/install/turtlesim/local/lib/python3.10/dist-packages:/home/knolan/ros2_ws2/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/knolan/ros-practice/install/turtlesim:/home/knolan/ros-practice/install/my_package:/home/knolan/ros2_ws2/install/turtlesim:/home/knolan/ros2_ws2/install/my_package:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[17.417979] (my_service) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/server.dir/src/add-server.cpp.o\x1b[0m\n'}
+[17.418215] (my_service) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/client.dir/src/add-client.cpp.o\x1b[0m\n'}
+[17.483544] (-) TimerEvent: {}
+[17.583882] (-) TimerEvent: {}
+[17.684288] (-) TimerEvent: {}
+[17.784754] (-) TimerEvent: {}
+[17.885354] (-) TimerEvent: {}
+[17.985855] (-) TimerEvent: {}
+[18.086391] (-) TimerEvent: {}
+[18.187130] (-) TimerEvent: {}
+[18.287829] (-) TimerEvent: {}
+[18.388536] (-) TimerEvent: {}
+[18.489257] (-) TimerEvent: {}
+[18.589898] (-) TimerEvent: {}
+[18.690486] (-) TimerEvent: {}
+[18.790976] (-) TimerEvent: {}
+[18.891482] (-) TimerEvent: {}
+[18.991957] (-) TimerEvent: {}
+[19.092457] (-) TimerEvent: {}
+[19.193298] (-) TimerEvent: {}
+[19.293693] (-) TimerEvent: {}
+[19.394313] (-) TimerEvent: {}
+[19.494835] (-) TimerEvent: {}
+[19.595461] (-) TimerEvent: {}
+[19.695975] (-) TimerEvent: {}
+[19.796470] (-) TimerEvent: {}
+[19.897025] (-) TimerEvent: {}
+[19.997523] (-) TimerEvent: {}
+[20.097975] (-) TimerEvent: {}
+[20.198498] (-) TimerEvent: {}
+[20.211312] (my_service) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable server\x1b[0m\n'}
+[20.232574] (my_service) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable client\x1b[0m\n'}
+[20.298687] (-) TimerEvent: {}
+[20.399155] (-) TimerEvent: {}
+[20.499451] (-) TimerEvent: {}
+[20.599858] (-) TimerEvent: {}
+[20.622829] (my_service) StdoutLine: {'line': b'[100%] Built target server\n'}
+[20.631743] (my_service) StdoutLine: {'line': b'[100%] Built target client\n'}
+[20.641537] (my_service) CommandEnded: {'returncode': 0}
+[20.643753] (my_service) JobProgress: {'identifier': 'my_service', 'progress': 'install'}
+[20.649517] (my_service) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/knolan/ros-practice/build/my_service'], 'cwd': '/home/knolan/ros-practice/build/my_service', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'knolan'), ('SSH_AGENT_PID', '42170'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/knolan/ros-practice/install/turtlesim/lib:/home/knolan/ros2_ws2/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{51855cb2-8cce-5362-8f54-464b92b32386}'), ('HOME', '/home/knolan'), ('OLDPWD', '/home/knolan/ros-practice/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/knolan/ros-practice/install:/home/knolan/ros2_ws2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'knolan'), ('NAME', 'HPX360-09'), ('WSL_INTEROP', '/run/WSL/22296_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/TwinCAT/Common64:/mnt/c/TwinCAT/Common32:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/WireGuard/:/mnt/c/Program Files/Fortect:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X64/:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X86/:/mnt/c/Program Files (x86)/Common Files/Pulse Secure/TNC Client Plugin/:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/Meld/:/mnt/c/Users/knolan/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/knolan/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/knolan/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/knolan/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/knolan/.dotnet/tools:/mnt/c/Users/knolan/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/knolan/AppData/Roaming/npm:/snap/bin'), ('WT_SESSION', '81afe777-187f-40a4-8a8c-c102a0f92460'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXFfVy4b/agent.42169'), ('AMENT_PREFIX_PATH', '/home/knolan/ros-practice/install/turtlesim:/home/knolan/ros-practice/install/my_package:/home/knolan/ros2_ws2/install/turtlesim:/home/knolan/ros2_ws2/install/my_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/knolan/ros-practice/build/my_service'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/knolan/ros-practice/install/turtlesim/local/lib/python3.10/dist-packages:/home/knolan/ros2_ws2/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/knolan/ros-practice/install/turtlesim:/home/knolan/ros-practice/install/my_package:/home/knolan/ros2_ws2/install/turtlesim:/home/knolan/ros2_ws2/install/my_package:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[20.653904] (my_service) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.654620] (my_service) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/my_service/lib/my_service/server\n'}
+[20.655371] (my_service) StdoutLine: {'line': b'-- Set runtime path of "/home/knolan/ros-practice/install/my_service/lib/my_service/server" to ""\n'}
+[20.655495] (my_service) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/my_service/lib/my_service/client\n'}
+[20.656029] (my_service) StdoutLine: {'line': b'-- Set runtime path of "/home/knolan/ros-practice/install/my_service/lib/my_service/client" to ""\n'}
+[20.657244] (my_service) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/my_service/share/ament_index/resource_index/package_run_dependencies/my_service\n'}
+[20.658083] (my_service) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/my_service/share/ament_index/resource_index/parent_prefix_path/my_service\n'}
+[20.658519] (my_service) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/my_service/share/my_service/environment/ament_prefix_path.sh\n'}
+[20.658697] (my_service) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/my_service/share/my_service/environment/ament_prefix_path.dsv\n'}
+[20.658842] (my_service) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/my_service/share/my_service/environment/path.sh\n'}
+[20.658989] (my_service) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/my_service/share/my_service/environment/path.dsv\n'}
+[20.659181] (my_service) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/my_service/share/my_service/local_setup.bash\n'}
+[20.659395] (my_service) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/my_service/share/my_service/local_setup.sh\n'}
+[20.659459] (my_service) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/my_service/share/my_service/local_setup.zsh\n'}
+[20.659521] (my_service) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/my_service/share/my_service/local_setup.dsv\n'}
+[20.659557] (my_service) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/my_service/share/my_service/package.dsv\n'}
+[20.659791] (my_service) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/my_service/share/ament_index/resource_index/packages/my_service\n'}
+[20.659939] (my_service) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/my_service/share/my_service/cmake/my_serviceConfig.cmake\n'}
+[20.660170] (my_service) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/my_service/share/my_service/cmake/my_serviceConfig-version.cmake\n'}
+[20.660249] (my_service) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/my_service/share/my_service/package.xml\n'}
+[20.661702] (my_service) CommandEnded: {'returncode': 0}
+[20.681786] (my_service) JobEnded: {'identifier': 'my_service', 'rc': 0}
+[20.682611] (-) EventReactorShutdown: {}
