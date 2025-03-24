@@ -1,0 +1,42 @@
+[0.012s] Invoking command in '/home/knolan/ros-practice/build/interface_practice': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/knolan/ros-practice/src/interface_practice -DCMAKE_INSTALL_PREFIX=/home/knolan/ros-practice/install/interface_practice
+[0.496s] -- The C compiler identification is GNU 11.4.0
+[2.009s] -- The CXX compiler identification is GNU 11.4.0
+[3.210s] -- Detecting C compiler ABI info
+[3.523s] -- Detecting C compiler ABI info - done
+[3.528s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.534s] -- Detecting C compile features
+[3.535s] -- Detecting C compile features - done
+[3.538s] -- Detecting CXX compiler ABI info
+[3.843s] -- Detecting CXX compiler ABI info - done
+[3.848s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.849s] -- Detecting CXX compile features
+[3.849s] -- Detecting CXX compile features - done
+[3.861s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.966s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.061s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.132s] -- Added test 'lint_cmake' to check CMake code style
+[4.133s] -- Added test 'xmllint' to check XML markup files
+[4.135s] -- Configuring done
+[4.137s] -- Generating done
+[4.138s] -- Build files have been written to: /home/knolan/ros-practice/build/interface_practice
+[4.141s] Invoked command in '/home/knolan/ros-practice/build/interface_practice' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/knolan/ros-practice/src/interface_practice -DCMAKE_INSTALL_PREFIX=/home/knolan/ros-practice/install/interface_practice
+[4.143s] Invoking command in '/home/knolan/ros-practice/build/interface_practice': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/knolan/ros-practice/build/interface_practice -- -j12 -l12
+[4.166s] Invoked command in '/home/knolan/ros-practice/build/interface_practice' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/knolan/ros-practice/build/interface_practice -- -j12 -l12
+[4.173s] Invoking command in '/home/knolan/ros-practice/build/interface_practice': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/knolan/ros-practice/build/interface_practice
+[4.177s] -- Install configuration: ""
+[4.178s] -- Installing: /home/knolan/ros-practice/install/interface_practice/share/ament_index/resource_index/package_run_dependencies/interface_practice
+[4.178s] -- Installing: /home/knolan/ros-practice/install/interface_practice/share/ament_index/resource_index/parent_prefix_path/interface_practice
+[4.178s] -- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/environment/ament_prefix_path.sh
+[4.178s] -- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/environment/ament_prefix_path.dsv
+[4.179s] -- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/environment/path.sh
+[4.179s] -- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/environment/path.dsv
+[4.179s] -- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/local_setup.bash
+[4.179s] -- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/local_setup.sh
+[4.179s] -- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/local_setup.zsh
+[4.179s] -- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/local_setup.dsv
+[4.179s] -- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/package.dsv
+[4.179s] -- Installing: /home/knolan/ros-practice/install/interface_practice/share/ament_index/resource_index/packages/interface_practice
+[4.180s] -- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/cmake/interface_practiceConfig.cmake
+[4.180s] -- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/cmake/interface_practiceConfig-version.cmake
+[4.180s] -- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/package.xml
+[4.181s] Invoked command in '/home/knolan/ros-practice/build/interface_practice' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/knolan/ros-practice/build/interface_practice

@@ -1,0 +1,363 @@
+[0.000000] (-) TimerEvent: {}
+[0.000165] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000184] (-) JobUnselected: {'identifier': 'my_service'}
+[0.000195] (interface_practice) JobQueued: {'identifier': 'interface_practice', 'dependencies': OrderedDict()}
+[0.000222] (interface_practice) JobStarted: {'identifier': 'interface_practice'}
+[0.006339] (interface_practice) JobProgress: {'identifier': 'interface_practice', 'progress': 'cmake'}
+[0.007605] (interface_practice) JobProgress: {'identifier': 'interface_practice', 'progress': 'build'}
+[0.008583] (interface_practice) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/knolan/ros-practice/build/interface_practice', '--', '-j12', '-l12'], 'cwd': '/home/knolan/ros-practice/build/interface_practice', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'knolan'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/knolan/ros-practice/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{51855cb2-8cce-5362-8f54-464b92b32386}'), ('HOME', '/home/knolan'), ('OLDPWD', '/home/knolan/ros-practice/install/interface_practice/share/interface_practice'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/knolan/ros-practice/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'knolan'), ('NAME', 'HPX360-09'), ('WSL_INTEROP', '/run/WSL/52463_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/TwinCAT/Common64:/mnt/c/TwinCAT/Common32:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/WireGuard/:/mnt/c/Program Files/Fortect:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X64/:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X86/:/mnt/c/Program Files (x86)/Common Files/Pulse Secure/TNC Client Plugin/:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/Meld/:/mnt/c/Users/knolan/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/knolan/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/knolan/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/knolan/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/knolan/.dotnet/tools:/mnt/c/Users/knolan/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/knolan/AppData/Roaming/npm:/snap/bin'), ('WT_SESSION', '529cfa05-c234-48a9-9170-8382a3d8ba56'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/knolan/ros-practice/install/turtlesim:/home/knolan/ros-practice/install/my_service:/home/knolan/ros-practice/install/my_package:/home/knolan/ros-practice/install/interface_practice:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/knolan/ros-practice/build/interface_practice'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/knolan/ros-practice/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/knolan/ros-practice/install/turtlesim:/home/knolan/ros-practice/install/my_service:/home/knolan/ros-practice/install/my_package:/home/knolan/ros-practice/install/interface_practice:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.024653] (interface_practice) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099082] (-) TimerEvent: {}
+[0.104434] (interface_practice) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.199409] (-) TimerEvent: {}
+[0.299845] (-) TimerEvent: {}
+[0.400305] (-) TimerEvent: {}
+[0.500737] (-) TimerEvent: {}
+[0.563966] (interface_practice) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.569355] (interface_practice) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.577987] (interface_practice) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.592018] (interface_practice) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.600860] (-) TimerEvent: {}
+[0.609116] (interface_practice) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.655758] (interface_practice) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.701134] (-) TimerEvent: {}
+[0.801541] (-) TimerEvent: {}
+[0.862144] (interface_practice) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.901640] (-) TimerEvent: {}
+[1.002020] (-) TimerEvent: {}
+[1.102360] (-) TimerEvent: {}
+[1.128452] (interface_practice) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.202714] (-) TimerEvent: {}
+[1.227063] (interface_practice) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.302831] (-) TimerEvent: {}
+[1.403209] (-) TimerEvent: {}
+[1.503718] (-) TimerEvent: {}
+[1.604207] (-) TimerEvent: {}
+[1.607464] (interface_practice) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.611000] (interface_practice) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.704353] (-) TimerEvent: {}
+[1.804855] (-) TimerEvent: {}
+[1.905352] (-) TimerEvent: {}
+[2.005812] (-) TimerEvent: {}
+[2.106486] (-) TimerEvent: {}
+[2.206888] (-) TimerEvent: {}
+[2.307653] (-) TimerEvent: {}
+[2.408107] (-) TimerEvent: {}
+[2.508571] (-) TimerEvent: {}
+[2.609290] (-) TimerEvent: {}
+[2.709945] (-) TimerEvent: {}
+[2.810520] (-) TimerEvent: {}
+[2.842983] (interface_practice) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.843236] (interface_practice) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.843289] (interface_practice) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.843322] (interface_practice) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.858720] (interface_practice) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.910624] (-) TimerEvent: {}
+[3.011003] (-) TimerEvent: {}
+[3.028439] (interface_practice) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.038646] (interface_practice) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.039201] (interface_practice) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.040611] (interface_practice) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.067898] (interface_practice) StdoutLine: {'line': b'-- Generating done\n'}
+[3.075073] (interface_practice) StdoutLine: {'line': b'-- Build files have been written to: /home/knolan/ros-practice/build/interface_practice\n'}
+[3.092538] (interface_practice) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.099027] (interface_practice) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.106369] (interface_practice) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_interface_practice\n'}
+[3.111216] (-) TimerEvent: {}
+[3.211741] (-) TimerEvent: {}
+[3.253875] (interface_practice) StdoutLine: {'line': b'running egg_info\n'}
+[3.254957] (interface_practice) StdoutLine: {'line': b'creating interface_practice.egg-info\n'}
+[3.255391] (interface_practice) StdoutLine: {'line': b'writing interface_practice.egg-info/PKG-INFO\n'}
+[3.255694] (interface_practice) StdoutLine: {'line': b'writing dependency_links to interface_practice.egg-info/dependency_links.txt\n'}
+[3.255852] (interface_practice) StdoutLine: {'line': b'writing top-level names to interface_practice.egg-info/top_level.txt\n'}
+[3.256175] (interface_practice) StdoutLine: {'line': b"writing manifest file 'interface_practice.egg-info/SOURCES.txt'\n"}
+[3.259698] (interface_practice) StdoutLine: {'line': b"reading manifest file 'interface_practice.egg-info/SOURCES.txt'\n"}
+[3.260129] (interface_practice) StdoutLine: {'line': b"writing manifest file 'interface_practice.egg-info/SOURCES.txt'\n"}
+[3.280369] (interface_practice) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_interface_practice_egg\n'}
+[3.312043] (-) TimerEvent: {}
+[3.383424] (interface_practice) StdoutLine: {'line': b'[  4%] Built target interface_practice__cpp\n'}
+[3.385774] (interface_practice) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/interface_practice__rosidl_generator_c.dir/rosidl_generator_c/interface_practice/msg/detail/num__functions.c.o\x1b[0m\n'}
+[3.386426] (interface_practice) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/interface_practice__rosidl_generator_c.dir/rosidl_generator_c/interface_practice/msg/detail/sphere__functions.c.o\x1b[0m\n'}
+[3.387495] (interface_practice) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/interface_practice__rosidl_generator_c.dir/rosidl_generator_c/interface_practice/srv/detail/add_three_ints__functions.c.o\x1b[0m\n'}
+[3.391520] (interface_practice) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.391831] (interface_practice) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.392213] (interface_practice) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.412210] (-) TimerEvent: {}
+[3.477617] (interface_practice) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libinterface_practice__rosidl_generator_c.so\x1b[0m\n'}
+[3.512406] (-) TimerEvent: {}
+[3.612903] (-) TimerEvent: {}
+[3.639127] (interface_practice) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/interface_practice__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface_practice/msg/detail/dds_fastrtps/sphere__type_support.cpp.o\x1b[0m\n'}
+[3.639445] (interface_practice) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/interface_practice__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface_practice/msg/detail/dds_fastrtps/num__type_support.cpp.o\x1b[0m\n'}
+[3.639553] (interface_practice) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/interface_practice__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface_practice/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[3.652432] (interface_practice) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/interface_practice__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_practice/msg/num__type_support.cpp.o\x1b[0m\n'}
+[3.655103] (interface_practice) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/interface_practice__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_practice/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[3.655374] (interface_practice) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/interface_practice__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_practice/msg/sphere__type_support.cpp.o\x1b[0m\n'}
+[3.687293] (interface_practice) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/interface_practice__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface_practice/msg/detail/sphere__type_support.cpp.o\x1b[0m\n'}
+[3.689676] (interface_practice) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/interface_practice__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface_practice/msg/detail/num__type_support.cpp.o\x1b[0m\n'}
+[3.689929] (interface_practice) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/interface_practice__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface_practice/srv/detail/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[3.713588] (-) TimerEvent: {}
+[3.742985] (interface_practice) StdoutLine: {'line': b'[ 38%] Built target interface_practice__rosidl_generator_c\n'}
+[3.751838] (interface_practice) StdoutLine: {'line': b'[ 42%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.752280] (interface_practice) StdoutLine: {'line': b'[ 42%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.753626] (interface_practice) StdoutLine: {'line': b'[ 44%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.813714] (-) TimerEvent: {}
+[3.914171] (-) TimerEvent: {}
+[4.014708] (-) TimerEvent: {}
+[4.115082] (-) TimerEvent: {}
+[4.170562] (interface_practice) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/interface_practice__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface_practice/msg/sphere__type_support.cpp.o\x1b[0m\n'}
+[4.170859] (interface_practice) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/interface_practice__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface_practice/msg/num__type_support.cpp.o\x1b[0m\n'}
+[4.173696] (interface_practice) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/interface_practice__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface_practice/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[4.174575] (interface_practice) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libinterface_practice__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.215263] (-) TimerEvent: {}
+[4.216180] (interface_practice) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libinterface_practice__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.261891] (interface_practice) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/interface_practice__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface_practice/msg/detail/sphere__type_support.c.o\x1b[0m\n'}
+[4.262333] (interface_practice) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/interface_practice__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface_practice/srv/detail/add_three_ints__type_support.c.o\x1b[0m\n'}
+[4.262461] (interface_practice) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/interface_practice__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface_practice/msg/detail/num__type_support.c.o\x1b[0m\n'}
+[4.274660] (interface_practice) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/interface_practice__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface_practice/msg/detail/num__type_support_c.cpp.o\x1b[0m\n'}
+[4.302361] (interface_practice) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/interface_practice__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface_practice/msg/detail/sphere__type_support_c.cpp.o\x1b[0m\n'}
+[4.304537] (interface_practice) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/interface_practice__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface_practice/srv/detail/add_three_ints__type_support_c.cpp.o\x1b[0m\n'}
+[4.314277] (interface_practice) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking C shared library libinterface_practice__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.315615] (-) TimerEvent: {}
+[4.353950] (interface_practice) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libinterface_practice__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.393999] (interface_practice) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libinterface_practice__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.416134] (-) TimerEvent: {}
+[4.479368] (interface_practice) StdoutLine: {'line': b'[ 74%] Built target interface_practice__rosidl_typesupport_cpp\n'}
+[4.516310] (-) TimerEvent: {}
+[4.594399] (interface_practice) StdoutLine: {'line': b'[ 74%] Built target interface_practice__rosidl_typesupport_c\n'}
+[4.616470] (-) TimerEvent: {}
+[4.639979] (interface_practice) StdoutLine: {'line': b'[ 74%] Built target interface_practice__rosidl_typesupport_introspection_c\n'}
+[4.655536] (interface_practice) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libinterface_practice__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.716662] (-) TimerEvent: {}
+[4.739643] (interface_practice) StdoutLine: {'line': b'[ 76%] Built target interface_practice__rosidl_typesupport_introspection_cpp\n'}
+[4.767047] (interface_practice) StdoutLine: {'line': b'[ 76%] Built target interface_practice__rosidl_typesupport_fastrtps_cpp\n'}
+[4.816794] (-) TimerEvent: {}
+[4.917328] (-) TimerEvent: {}
+[4.952524] (interface_practice) StdoutLine: {'line': b'[ 76%] Built target interface_practice__rosidl_typesupport_fastrtps_c\n'}
+[4.966823] (interface_practice) StdoutLine: {'line': b'[ 76%] Built target interface_practice\n'}
+[4.979299] (interface_practice) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.017439] (-) TimerEvent: {}
+[5.117953] (-) TimerEvent: {}
+[5.218627] (-) TimerEvent: {}
+[5.288271] (interface_practice) StdoutLine: {'line': b'[ 78%] Built target interface_practice__py\n'}
+[5.299966] (interface_practice) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/interface_practice__rosidl_generator_py.dir/rosidl_generator_py/interface_practice/msg/_num_s.c.o\x1b[0m\n'}
+[5.300641] (interface_practice) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/interface_practice__rosidl_generator_py.dir/rosidl_generator_py/interface_practice/msg/_sphere_s.c.o\x1b[0m\n'}
+[5.301904] (interface_practice) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/interface_practice__rosidl_generator_py.dir/rosidl_generator_py/interface_practice/srv/_add_three_ints_s.c.o\x1b[0m\n'}
+[5.318827] (-) TimerEvent: {}
+[5.419406] (-) TimerEvent: {}
+[5.420197] (interface_practice) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interface_practice/libinterface_practice__rosidl_generator_py.so\x1b[0m\n'}
+[5.519736] (-) TimerEvent: {}
+[5.620293] (-) TimerEvent: {}
+[5.720799] (-) TimerEvent: {}
+[5.746375] (interface_practice) StdoutLine: {'line': b'[ 87%] Built target interface_practice__rosidl_generator_py\n'}
+[5.760053] (interface_practice) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/interface_practice__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interface_practice/_interface_practice_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[5.760512] (interface_practice) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/interface_practice__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interface_practice/_interface_practice_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[5.762078] (interface_practice) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/interface_practice__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interface_practice/_interface_practice_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[5.820989] (-) TimerEvent: {}
+[5.830568] (interface_practice) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interface_practice/interface_practice_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.830968] (interface_practice) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interface_practice/interface_practice_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.841704] (interface_practice) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interface_practice/interface_practice_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.921225] (-) TimerEvent: {}
+[6.021627] (-) TimerEvent: {}
+[6.033496] (interface_practice) StdoutLine: {'line': b'[100%] Built target interface_practice__rosidl_typesupport_fastrtps_c__pyext\n'}
+[6.037884] (interface_practice) StdoutLine: {'line': b'[100%] Built target interface_practice__rosidl_typesupport_introspection_c__pyext\n'}
+[6.116692] (interface_practice) StdoutLine: {'line': b'[100%] Built target interface_practice__rosidl_typesupport_c__pyext\n'}
+[6.121877] (-) TimerEvent: {}
+[6.124887] (interface_practice) CommandEnded: {'returncode': 0}
+[6.125653] (interface_practice) JobProgress: {'identifier': 'interface_practice', 'progress': 'install'}
+[6.131686] (interface_practice) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/knolan/ros-practice/build/interface_practice'], 'cwd': '/home/knolan/ros-practice/build/interface_practice', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'knolan'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/knolan/ros-practice/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{51855cb2-8cce-5362-8f54-464b92b32386}'), ('HOME', '/home/knolan'), ('OLDPWD', '/home/knolan/ros-practice/install/interface_practice/share/interface_practice'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/knolan/ros-practice/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'knolan'), ('NAME', 'HPX360-09'), ('WSL_INTEROP', '/run/WSL/52463_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/TwinCAT/Common64:/mnt/c/TwinCAT/Common32:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/WireGuard/:/mnt/c/Program Files/Fortect:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X64/:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X86/:/mnt/c/Program Files (x86)/Common Files/Pulse Secure/TNC Client Plugin/:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/Meld/:/mnt/c/Users/knolan/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/knolan/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/knolan/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/knolan/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/knolan/.dotnet/tools:/mnt/c/Users/knolan/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/knolan/AppData/Roaming/npm:/snap/bin'), ('WT_SESSION', '529cfa05-c234-48a9-9170-8382a3d8ba56'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/knolan/ros-practice/install/turtlesim:/home/knolan/ros-practice/install/my_service:/home/knolan/ros-practice/install/my_package:/home/knolan/ros-practice/install/interface_practice:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/knolan/ros-practice/build/interface_practice'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/knolan/ros-practice/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/knolan/ros-practice/install/turtlesim:/home/knolan/ros-practice/install/my_service:/home/knolan/ros-practice/install/my_package:/home/knolan/ros-practice/install/interface_practice:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[6.136554] (interface_practice) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.137175] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/share/ament_index/resource_index/rosidl_interfaces/interface_practice\n'}
+[6.137386] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice\n'}
+[6.137654] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/srv\n'}
+[6.137862] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/srv/detail\n'}
+[6.138005] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/srv/detail/add_three_ints__functions.h\n'}
+[6.138170] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/srv/detail/add_three_ints__functions.c\n'}
+[6.138273] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/srv/detail/add_three_ints__struct.h\n'}
+[6.138555] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/srv/detail/add_three_ints__type_support.h\n'}
+[6.138743] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/srv/add_three_ints.h\n'}
+[6.138950] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/msg\n'}
+[6.139066] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/msg/sphere.h\n'}
+[6.139204] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/msg/rosidl_generator_c__visibility_control.h\n'}
+[6.139376] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/msg/num.h\n'}
+[6.139755] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/msg/detail\n'}
+[6.140112] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/msg/detail/num__struct.h\n'}
+[6.140440] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/msg/detail/sphere__struct.h\n'}
+[6.140940] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/msg/detail/sphere__type_support.h\n'}
+[6.141023] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/msg/detail/num__functions.h\n'}
+[6.141188] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/msg/detail/sphere__functions.c\n'}
+[6.141332] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/msg/detail/num__type_support.h\n'}
+[6.141683] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/msg/detail/sphere__functions.h\n'}
+[6.141785] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/msg/detail/num__functions.c\n'}
+[6.141955] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/environment/library_path.sh\n'}
+[6.142126] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/environment/library_path.dsv\n'}
+[6.142320] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/lib/libinterface_practice__rosidl_generator_c.so\n'}
+[6.142489] (interface_practice) StdoutLine: {'line': b'-- Set runtime path of "/home/knolan/ros-practice/install/interface_practice/lib/libinterface_practice__rosidl_generator_c.so" to ""\n'}
+[6.142861] (interface_practice) StdoutLine: {'line': b'-- Up-to-date: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice\n'}
+[6.142946] (interface_practice) StdoutLine: {'line': b'-- Up-to-date: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/srv\n'}
+[6.143010] (interface_practice) StdoutLine: {'line': b'-- Up-to-date: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/srv/detail\n'}
+[6.143072] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[6.143147] (interface_practice) StdoutLine: {'line': b'-- Up-to-date: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/msg\n'}
+[6.143211] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[6.143272] (interface_practice) StdoutLine: {'line': b'-- Up-to-date: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/msg/detail\n'}
+[6.143341] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h\n'}
+[6.143411] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[6.143590] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/lib/libinterface_practice__rosidl_typesupport_fastrtps_c.so\n'}
+[6.143690] (interface_practice) StdoutLine: {'line': b'-- Set runtime path of "/home/knolan/ros-practice/install/interface_practice/lib/libinterface_practice__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[6.143771] (interface_practice) StdoutLine: {'line': b'-- Up-to-date: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice\n'}
+[6.143842] (interface_practice) StdoutLine: {'line': b'-- Up-to-date: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/srv\n'}
+[6.143913] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/srv/add_three_ints.hpp\n'}
+[6.143992] (interface_practice) StdoutLine: {'line': b'-- Up-to-date: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/srv/detail\n'}
+[6.144054] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/srv/detail/add_three_ints__traits.hpp\n'}
+[6.144418] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/srv/detail/add_three_ints__builder.hpp\n'}
+[6.144498] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/srv/detail/add_three_ints__type_support.hpp\n'}
+[6.144579] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/srv/detail/add_three_ints__struct.hpp\n'}
+[6.144624] (interface_practice) StdoutLine: {'line': b'-- Up-to-date: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/msg\n'}
+[6.144725] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[6.144802] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/msg/sphere.hpp\n'}
+[6.144883] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/msg/num.hpp\n'}
+[6.144961] (interface_practice) StdoutLine: {'line': b'-- Up-to-date: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/msg/detail\n'}
+[6.145242] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/msg/detail/sphere__struct.hpp\n'}
+[6.145461] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/msg/detail/num__struct.hpp\n'}
+[6.145769] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/msg/detail/sphere__traits.hpp\n'}
+[6.145874] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/msg/detail/sphere__type_support.hpp\n'}
+[6.145907] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/msg/detail/num__traits.hpp\n'}
+[6.145942] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/msg/detail/num__builder.hpp\n'}
+[6.145970] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/msg/detail/num__type_support.hpp\n'}
+[6.146013] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/msg/detail/sphere__builder.hpp\n'}
+[6.146054] (interface_practice) StdoutLine: {'line': b'-- Up-to-date: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice\n'}
+[6.146089] (interface_practice) StdoutLine: {'line': b'-- Up-to-date: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/srv\n'}
+[6.146118] (interface_practice) StdoutLine: {'line': b'-- Up-to-date: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/srv/detail\n'}
+[6.146145] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.146173] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/srv/detail/dds_fastrtps\n'}
+[6.146199] (interface_practice) StdoutLine: {'line': b'-- Up-to-date: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/msg\n'}
+[6.146326] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[6.146354] (interface_practice) StdoutLine: {'line': b'-- Up-to-date: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/msg/detail\n'}
+[6.146381] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/msg/detail/dds_fastrtps\n'}
+[6.146408] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.146434] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.146461] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/lib/libinterface_practice__rosidl_typesupport_fastrtps_cpp.so\n'}
+[6.146487] (interface_practice) StdoutLine: {'line': b'-- Set runtime path of "/home/knolan/ros-practice/install/interface_practice/lib/libinterface_practice__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[6.146513] (interface_practice) StdoutLine: {'line': b'-- Up-to-date: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice\n'}
+[6.146537] (interface_practice) StdoutLine: {'line': b'-- Up-to-date: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/srv\n'}
+[6.146562] (interface_practice) StdoutLine: {'line': b'-- Up-to-date: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/srv/detail\n'}
+[6.146588] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h\n'}
+[6.146636] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/srv/detail/add_three_ints__type_support.c\n'}
+[6.146690] (interface_practice) StdoutLine: {'line': b'-- Up-to-date: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/msg\n'}
+[6.146732] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[6.146763] (interface_practice) StdoutLine: {'line': b'-- Up-to-date: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/msg/detail\n'}
+[6.146792] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/msg/detail/num__type_support.c\n'}
+[6.146821] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/msg/detail/sphere__rosidl_typesupport_introspection_c.h\n'}
+[6.146848] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[6.146874] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/msg/detail/sphere__type_support.c\n'}
+[6.146902] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/lib/libinterface_practice__rosidl_typesupport_introspection_c.so\n'}
+[6.146929] (interface_practice) StdoutLine: {'line': b'-- Set runtime path of "/home/knolan/ros-practice/install/interface_practice/lib/libinterface_practice__rosidl_typesupport_introspection_c.so" to ""\n'}
+[6.146956] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/lib/libinterface_practice__rosidl_typesupport_c.so\n'}
+[6.146983] (interface_practice) StdoutLine: {'line': b'-- Set runtime path of "/home/knolan/ros-practice/install/interface_practice/lib/libinterface_practice__rosidl_typesupport_c.so" to ""\n'}
+[6.147012] (interface_practice) StdoutLine: {'line': b'-- Up-to-date: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice\n'}
+[6.147037] (interface_practice) StdoutLine: {'line': b'-- Up-to-date: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/srv\n'}
+[6.147064] (interface_practice) StdoutLine: {'line': b'-- Up-to-date: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/srv/detail\n'}
+[6.147090] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/srv/detail/add_three_ints__type_support.cpp\n'}
+[6.147116] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.147142] (interface_practice) StdoutLine: {'line': b'-- Up-to-date: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/msg\n'}
+[6.147168] (interface_practice) StdoutLine: {'line': b'-- Up-to-date: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/msg/detail\n'}
+[6.147193] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/msg/detail/sphere__type_support.cpp\n'}
+[6.147322] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.147355] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/msg/detail/num__type_support.cpp\n'}
+[6.147382] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/include/interface_practice/interface_practice/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.147409] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/lib/libinterface_practice__rosidl_typesupport_introspection_cpp.so\n'}
+[6.147436] (interface_practice) StdoutLine: {'line': b'-- Set runtime path of "/home/knolan/ros-practice/install/interface_practice/lib/libinterface_practice__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[6.147463] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/lib/libinterface_practice__rosidl_typesupport_cpp.so\n'}
+[6.147489] (interface_practice) StdoutLine: {'line': b'-- Set runtime path of "/home/knolan/ros-practice/install/interface_practice/lib/libinterface_practice__rosidl_typesupport_cpp.so" to ""\n'}
+[6.147515] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/environment/pythonpath.sh\n'}
+[6.147540] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/environment/pythonpath.dsv\n'}
+[6.147568] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/local/lib/python3.10/dist-packages/interface_practice-0.0.0-py3.10.egg-info\n'}
+[6.147593] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/local/lib/python3.10/dist-packages/interface_practice-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[6.147618] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/local/lib/python3.10/dist-packages/interface_practice-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[6.147643] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/local/lib/python3.10/dist-packages/interface_practice-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[6.147669] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/local/lib/python3.10/dist-packages/interface_practice-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[6.147695] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/local/lib/python3.10/dist-packages/interface_practice\n'}
+[6.147720] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/local/lib/python3.10/dist-packages/interface_practice/srv\n'}
+[6.147744] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/local/lib/python3.10/dist-packages/interface_practice/srv/_add_three_ints_s.c\n'}
+[6.147770] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/local/lib/python3.10/dist-packages/interface_practice/srv/_add_three_ints.py\n'}
+[6.147795] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/local/lib/python3.10/dist-packages/interface_practice/srv/__init__.py\n'}
+[6.147822] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/local/lib/python3.10/dist-packages/interface_practice/interface_practice_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.147849] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/local/lib/python3.10/dist-packages/interface_practice/_interface_practice_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[6.147877] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/local/lib/python3.10/dist-packages/interface_practice/_interface_practice_s.ep.rosidl_typesupport_c.c\n'}
+[6.147904] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/local/lib/python3.10/dist-packages/interface_practice/_interface_practice_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[6.147931] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/local/lib/python3.10/dist-packages/interface_practice/interface_practice_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.147959] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/local/lib/python3.10/dist-packages/interface_practice/interface_practice_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.147987] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/local/lib/python3.10/dist-packages/interface_practice/msg\n'}
+[6.148013] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/local/lib/python3.10/dist-packages/interface_practice/msg/_sphere_s.c\n'}
+[6.148039] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/local/lib/python3.10/dist-packages/interface_practice/msg/_num.py\n'}
+[6.148065] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/local/lib/python3.10/dist-packages/interface_practice/msg/_num_s.c\n'}
+[6.148090] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/local/lib/python3.10/dist-packages/interface_practice/msg/__init__.py\n'}
+[6.148117] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/local/lib/python3.10/dist-packages/interface_practice/msg/_sphere.py\n'}
+[6.148142] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/local/lib/python3.10/dist-packages/interface_practice/__init__.py\n'}
+[6.148167] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/local/lib/python3.10/dist-packages/interface_practice/libinterface_practice__rosidl_generator_py.so\n'}
+[6.174111] (interface_practice) StdoutLine: {'line': b"Listing '/home/knolan/ros-practice/install/interface_practice/local/lib/python3.10/dist-packages/interface_practice'...\n"}
+[6.174333] (interface_practice) StdoutLine: {'line': b"Compiling '/home/knolan/ros-practice/install/interface_practice/local/lib/python3.10/dist-packages/interface_practice/__init__.py'...\n"}
+[6.174405] (interface_practice) StdoutLine: {'line': b"Listing '/home/knolan/ros-practice/install/interface_practice/local/lib/python3.10/dist-packages/interface_practice/msg'...\n"}
+[6.174481] (interface_practice) StdoutLine: {'line': b"Compiling '/home/knolan/ros-practice/install/interface_practice/local/lib/python3.10/dist-packages/interface_practice/msg/__init__.py'...\n"}
+[6.174546] (interface_practice) StdoutLine: {'line': b"Compiling '/home/knolan/ros-practice/install/interface_practice/local/lib/python3.10/dist-packages/interface_practice/msg/_num.py'...\n"}
+[6.174608] (interface_practice) StdoutLine: {'line': b"Compiling '/home/knolan/ros-practice/install/interface_practice/local/lib/python3.10/dist-packages/interface_practice/msg/_sphere.py'...\n"}
+[6.174670] (interface_practice) StdoutLine: {'line': b"Listing '/home/knolan/ros-practice/install/interface_practice/local/lib/python3.10/dist-packages/interface_practice/srv'...\n"}
+[6.174732] (interface_practice) StdoutLine: {'line': b"Compiling '/home/knolan/ros-practice/install/interface_practice/local/lib/python3.10/dist-packages/interface_practice/srv/__init__.py'...\n"}
+[6.174800] (interface_practice) StdoutLine: {'line': b"Compiling '/home/knolan/ros-practice/install/interface_practice/local/lib/python3.10/dist-packages/interface_practice/srv/_add_three_ints.py'...\n"}
+[6.178093] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/local/lib/python3.10/dist-packages/interface_practice/interface_practice_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.178213] (interface_practice) StdoutLine: {'line': b'-- Set runtime path of "/home/knolan/ros-practice/install/interface_practice/local/lib/python3.10/dist-packages/interface_practice/interface_practice_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[6.178394] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/local/lib/python3.10/dist-packages/interface_practice/interface_practice_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.178502] (interface_practice) StdoutLine: {'line': b'-- Set runtime path of "/home/knolan/ros-practice/install/interface_practice/local/lib/python3.10/dist-packages/interface_practice/interface_practice_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[6.178824] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/local/lib/python3.10/dist-packages/interface_practice/interface_practice_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.179265] (interface_practice) StdoutLine: {'line': b'-- Set runtime path of "/home/knolan/ros-practice/install/interface_practice/local/lib/python3.10/dist-packages/interface_practice/interface_practice_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[6.179315] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/lib/libinterface_practice__rosidl_generator_py.so\n'}
+[6.179346] (interface_practice) StdoutLine: {'line': b'-- Set runtime path of "/home/knolan/ros-practice/install/interface_practice/lib/libinterface_practice__rosidl_generator_py.so" to ""\n'}
+[6.179374] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/msg/Num.idl\n'}
+[6.179401] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/msg/Sphere.idl\n'}
+[6.179428] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/srv/AddThreeInts.idl\n'}
+[6.179454] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/msg/Num.msg\n'}
+[6.179619] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/msg/Sphere.msg\n'}
+[6.179800] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/srv/AddThreeInts.srv\n'}
+[6.179896] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/srv/AddThreeInts_Request.msg\n'}
+[6.180011] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/srv/AddThreeInts_Response.msg\n'}
+[6.180235] (interface_practice) StdoutLine: {'line': b'-- Up-to-date: /home/knolan/ros-practice/install/interface_practice/share/ament_index/resource_index/package_run_dependencies/interface_practice\n'}
+[6.180466] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/share/ament_index/resource_index/parent_prefix_path/interface_practice\n'}
+[6.180628] (interface_practice) StdoutLine: {'line': b'-- Up-to-date: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/environment/ament_prefix_path.sh\n'}
+[6.180700] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/environment/ament_prefix_path.dsv\n'}
+[6.180922] (interface_practice) StdoutLine: {'line': b'-- Up-to-date: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/environment/path.sh\n'}
+[6.181034] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/environment/path.dsv\n'}
+[6.181219] (interface_practice) StdoutLine: {'line': b'-- Up-to-date: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/local_setup.bash\n'}
+[6.181725] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/local_setup.sh\n'}
+[6.181802] (interface_practice) StdoutLine: {'line': b'-- Up-to-date: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/local_setup.zsh\n'}
+[6.181870] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/local_setup.dsv\n'}
+[6.182093] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/package.dsv\n'}
+[6.182227] (interface_practice) StdoutLine: {'line': b'-- Up-to-date: /home/knolan/ros-practice/install/interface_practice/share/ament_index/resource_index/packages/interface_practice\n'}
+[6.182306] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/cmake/export_interface_practice__rosidl_generator_cExport.cmake\n'}
+[6.182376] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/cmake/export_interface_practice__rosidl_generator_cExport-noconfig.cmake\n'}
+[6.182455] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/cmake/export_interface_practice__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[6.182790] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/cmake/export_interface_practice__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[6.182987] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/cmake/export_interface_practice__rosidl_generator_cppExport.cmake\n'}
+[6.183027] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/cmake/export_interface_practice__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[6.183060] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/cmake/export_interface_practice__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[6.183089] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/cmake/interface_practice__rosidl_typesupport_introspection_cExport.cmake\n'}
+[6.183116] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/cmake/interface_practice__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[6.183143] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/cmake/interface_practice__rosidl_typesupport_cExport.cmake\n'}
+[6.183170] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/cmake/interface_practice__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[6.183201] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/cmake/interface_practice__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[6.183227] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/cmake/interface_practice__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[6.183254] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/cmake/interface_practice__rosidl_typesupport_cppExport.cmake\n'}
+[6.183280] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/cmake/interface_practice__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[6.183306] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/cmake/export_interface_practice__rosidl_generator_pyExport.cmake\n'}
+[6.183332] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/cmake/export_interface_practice__rosidl_generator_pyExport-noconfig.cmake\n'}
+[6.183358] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/cmake/rosidl_cmake-extras.cmake\n'}
+[6.183384] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.183409] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.183434] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.183459] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[6.183488] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[6.183513] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[6.183538] (interface_practice) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/cmake/interface_practiceConfig.cmake\n'}
+[6.183565] (interface_practice) StdoutLine: {'line': b'-- Up-to-date: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/cmake/interface_practiceConfig-version.cmake\n'}
+[6.183590] (interface_practice) StdoutLine: {'line': b'-- Up-to-date: /home/knolan/ros-practice/install/interface_practice/share/interface_practice/package.xml\n'}
+[6.184583] (interface_practice) CommandEnded: {'returncode': 0}
+[6.198924] (interface_practice) JobEnded: {'identifier': 'interface_practice', 'rc': 0}
+[6.200275] (-) EventReactorShutdown: {}

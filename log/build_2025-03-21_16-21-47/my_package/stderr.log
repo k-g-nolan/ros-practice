@@ -1,0 +1,46 @@
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/knolan/ros-practice/src/my_package/src/sub.cpp:3[m[K:
+[01m[K/home/knolan/ros-practice/src/my_package/src/sub.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(const Num&) const[m[K’:
+[01m[K/home/knolan/ros-practice/src/my_package/src/sub.cpp:20:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Klong int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   20 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"I heard: '%d'"[m[K, [32m[Kmsg.num[m[K);
+      |                                         [01;35m[K^~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~[m[K
+      |                                                              [32m[K|[m[K
+      |                                                              [32m[Klong int[m[K
+[01m[K/home/knolan/ros-practice/src/my_package/src/sub.cpp:20:53:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   20 |         RCLCPP_INFO(this->get_logger(), "I heard: '[01;36m[K%d[m[K'", msg.num);
+      |                                                    [01;36m[K~^[m[K
+      |                                                     [01;36m[K|[m[K
+      |                                                     [01;36m[Kint[m[K
+      |                                                    [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/knolan/ros-practice/src/my_package/src/pub.cpp:6[m[K:
+[01m[K/home/knolan/ros-practice/src/my_package/src/pub.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/knolan/ros-practice/src/my_package/src/pub.cpp:30:53:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kconst char [14][m[K’ and ‘[01m[Kinterface_practice::msg::Num_<std::allocator<void> >::_num_type[m[K’ {aka ‘[01m[Klong int[m[K’} to binary ‘[01m[Koperator<<[m[K’
+   30 |     RCLCPP_INFO(this->get_logger(), [32m[K"Publishing: '"[m[K [01;31m[K<<[m[K [34m[Kmessage.num[m[K << "'");
+      |                                     [32m[K~~~~~~~~~~~~~~~[m[K [01;31m[K^~[m[K [34m[K~~~~~~~~~~~[m[K
+      |                                     [32m[K|[m[K                          [34m[K|[m[K
+      |                                     [32m[Kconst char [14][m[K            [34m[Kinterface_practice::msg::Num_<std::allocator<void> >::_num_type {aka long int}[m[K
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/talker.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

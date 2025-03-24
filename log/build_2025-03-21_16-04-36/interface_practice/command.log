@@ -1,0 +1,4 @@
+Invoking command in '/home/knolan/ros-practice/build/interface_practice': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/knolan/ros-practice/build/interface_practice -- -j12 -l12
+Invoked command in '/home/knolan/ros-practice/build/interface_practice' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/knolan/ros-practice/build/interface_practice -- -j12 -l12
+Invoking command in '/home/knolan/ros-practice/build/interface_practice': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/knolan/ros-practice/build/interface_practice
+Invoked command in '/home/knolan/ros-practice/build/interface_practice' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/knolan/ros-practice/build/interface_practice

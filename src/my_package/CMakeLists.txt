@@ -9,19 +9,13 @@ endif()
 find_package(ament_cmake REQUIRED)
 
 find_package(rclcpp REQUIRED)
-find_package(std_msgs REQUIRED)
+find_package(interface_practice REQUIRED)
 
 add_executable(talker src/pub.cpp)
-ament_target_dependencies(talker rclcpp std_msgs)
-
-install(TARGETS
-  talker
-  DESTINATION lib/${PROJECT_NAME})
-
-
+ament_target_dependencies(talker rclcpp interface_practice)
 
 add_executable(listener src/sub.cpp)
-ament_target_dependencies(listener rclcpp std_msgs)
+ament_target_dependencies(listener rclcpp interface_practice)
 
 install(TARGETS
   talker

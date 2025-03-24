@@ -1,0 +1,28 @@
+[35m[1mConsolidate compiler generated dependencies of target talker[0m
+[35m[1mConsolidate compiler generated dependencies of target listener[0m
+[ 33%] Built target my_node
+[ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/pub.cpp.o[0m
+[ 83%] Built target listener
+[100%] [32m[1mLinking CXX executable talker[0m
+[100%] Built target talker
+-- Install configuration: ""
+-- Installing: /home/knolan/ros-practice/install/my_package/lib/my_package/talker
+-- Set runtime path of "/home/knolan/ros-practice/install/my_package/lib/my_package/talker" to ""
+-- Installing: /home/knolan/ros-practice/install/my_package/lib/my_package/listener
+-- Set runtime path of "/home/knolan/ros-practice/install/my_package/lib/my_package/listener" to ""
+-- Installing: /home/knolan/ros-practice/install/my_package/lib/my_package/my_node
+-- Installing: /home/knolan/ros-practice/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+-- Installing: /home/knolan/ros-practice/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+-- Installing: /home/knolan/ros-practice/install/my_package/share/my_package/environment/ament_prefix_path.sh
+-- Installing: /home/knolan/ros-practice/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+-- Installing: /home/knolan/ros-practice/install/my_package/share/my_package/environment/path.sh
+-- Installing: /home/knolan/ros-practice/install/my_package/share/my_package/environment/path.dsv
+-- Up-to-date: /home/knolan/ros-practice/install/my_package/share/my_package/local_setup.bash
+-- Installing: /home/knolan/ros-practice/install/my_package/share/my_package/local_setup.sh
+-- Up-to-date: /home/knolan/ros-practice/install/my_package/share/my_package/local_setup.zsh
+-- Installing: /home/knolan/ros-practice/install/my_package/share/my_package/local_setup.dsv
+-- Installing: /home/knolan/ros-practice/install/my_package/share/my_package/package.dsv
+-- Up-to-date: /home/knolan/ros-practice/install/my_package/share/ament_index/resource_index/packages/my_package
+-- Up-to-date: /home/knolan/ros-practice/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+-- Up-to-date: /home/knolan/ros-practice/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+-- Installing: /home/knolan/ros-practice/install/my_package/share/my_package/package.xml

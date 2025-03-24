@@ -1,0 +1,30 @@
+[0.270s] Invoking command in '/home/knolan/ros-practice/build/my_package': CMAKE_PREFIX_PATH=/home/knolan/ros-practice/install/interface_practice:/home/knolan/ros-practice/install/turtlesim:/home/knolan/ros-practice/install/my_service:/home/knolan/ros-practice/install/my_package:/opt/ros/humble LD_LIBRARY_PATH=/home/knolan/ros-practice/install/interface_practice/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/knolan/ros-practice/install/interface_practice/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/knolan/ros-practice/build/my_package -- -j12 -l12
+[0.295s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.301s] [ 33%] Built target my_node
+[0.306s] [ 66%] Built target listener
+[0.306s] [ 83%] [32mBuilding CXX object CMakeFiles/talker.dir/src/pub.cpp.o[0m
+[2.902s] [100%] [32m[1mLinking CXX executable talker[0m
+[3.275s] [100%] Built target talker
+[3.284s] Invoked command in '/home/knolan/ros-practice/build/my_package' returned '0': CMAKE_PREFIX_PATH=/home/knolan/ros-practice/install/interface_practice:/home/knolan/ros-practice/install/turtlesim:/home/knolan/ros-practice/install/my_service:/home/knolan/ros-practice/install/my_package:/opt/ros/humble LD_LIBRARY_PATH=/home/knolan/ros-practice/install/interface_practice/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/knolan/ros-practice/install/interface_practice/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/knolan/ros-practice/build/my_package -- -j12 -l12
+[3.292s] Invoking command in '/home/knolan/ros-practice/build/my_package': CMAKE_PREFIX_PATH=/home/knolan/ros-practice/install/interface_practice:/home/knolan/ros-practice/install/turtlesim:/home/knolan/ros-practice/install/my_service:/home/knolan/ros-practice/install/my_package:/opt/ros/humble LD_LIBRARY_PATH=/home/knolan/ros-practice/install/interface_practice/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/knolan/ros-practice/install/interface_practice/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/knolan/ros-practice/build/my_package
+[3.296s] -- Install configuration: ""
+[3.296s] -- Installing: /home/knolan/ros-practice/install/my_package/lib/my_package/talker
+[3.297s] -- Set runtime path of "/home/knolan/ros-practice/install/my_package/lib/my_package/talker" to ""
+[3.297s] -- Up-to-date: /home/knolan/ros-practice/install/my_package/lib/my_package/listener
+[3.297s] -- Up-to-date: /home/knolan/ros-practice/install/my_package/lib/my_package/my_node
+[3.298s] -- Up-to-date: /home/knolan/ros-practice/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[3.298s] -- Up-to-date: /home/knolan/ros-practice/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[3.298s] -- Up-to-date: /home/knolan/ros-practice/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[3.298s] -- Up-to-date: /home/knolan/ros-practice/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[3.298s] -- Up-to-date: /home/knolan/ros-practice/install/my_package/share/my_package/environment/path.sh
+[3.298s] -- Up-to-date: /home/knolan/ros-practice/install/my_package/share/my_package/environment/path.dsv
+[3.298s] -- Up-to-date: /home/knolan/ros-practice/install/my_package/share/my_package/local_setup.bash
+[3.298s] -- Up-to-date: /home/knolan/ros-practice/install/my_package/share/my_package/local_setup.sh
+[3.298s] -- Up-to-date: /home/knolan/ros-practice/install/my_package/share/my_package/local_setup.zsh
+[3.298s] -- Up-to-date: /home/knolan/ros-practice/install/my_package/share/my_package/local_setup.dsv
+[3.298s] -- Installing: /home/knolan/ros-practice/install/my_package/share/my_package/package.dsv
+[3.298s] -- Up-to-date: /home/knolan/ros-practice/install/my_package/share/ament_index/resource_index/packages/my_package
+[3.298s] -- Up-to-date: /home/knolan/ros-practice/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[3.298s] -- Up-to-date: /home/knolan/ros-practice/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[3.298s] -- Up-to-date: /home/knolan/ros-practice/install/my_package/share/my_package/package.xml
+[3.300s] Invoked command in '/home/knolan/ros-practice/build/my_package' returned '0': CMAKE_PREFIX_PATH=/home/knolan/ros-practice/install/interface_practice:/home/knolan/ros-practice/install/turtlesim:/home/knolan/ros-practice/install/my_service:/home/knolan/ros-practice/install/my_package:/opt/ros/humble LD_LIBRARY_PATH=/home/knolan/ros-practice/install/interface_practice/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/knolan/ros-practice/install/interface_practice/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/knolan/ros-practice/build/my_package

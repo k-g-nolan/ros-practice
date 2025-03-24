@@ -1,0 +1,5 @@
+[0.000000] (-) TimerEvent: {}
+[0.000976] (-) JobUnselected: {'identifier': 'interface_practice'}
+[0.001014] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001025] (-) JobUnselected: {'identifier': 'my_service'}
+[0.001034] (-) EventReactorShutdown: {}

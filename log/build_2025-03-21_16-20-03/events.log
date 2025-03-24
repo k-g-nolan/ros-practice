@@ -1,0 +1,100 @@
+[0.000000] (-) TimerEvent: {}
+[0.000400] (-) JobUnselected: {'identifier': 'interface_practice'}
+[0.000443] (-) JobUnselected: {'identifier': 'my_service'}
+[0.000459] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict([('interface_practice', '/home/knolan/ros-practice/install/interface_practice')])}
+[0.000475] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.098754] (-) TimerEvent: {}
+[0.199215] (-) TimerEvent: {}
+[0.250737] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'cmake'}
+[0.251516] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'build'}
+[0.252206] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/knolan/ros-practice/build/my_package', '--', '-j12', '-l12'], 'cwd': '/home/knolan/ros-practice/build/my_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'knolan'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/knolan/ros-practice/install/interface_practice/lib:/home/knolan/ros-practice/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{51855cb2-8cce-5362-8f54-464b92b32386}'), ('HOME', '/home/knolan'), ('OLDPWD', '/home/knolan/ros-practice/build/my_package'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/knolan/ros-practice/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'knolan'), ('NAME', 'HPX360-09'), ('WSL_INTEROP', '/run/WSL/52463_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/TwinCAT/Common64:/mnt/c/TwinCAT/Common32:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/WireGuard/:/mnt/c/Program Files/Fortect:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X64/:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X86/:/mnt/c/Program Files (x86)/Common Files/Pulse Secure/TNC Client Plugin/:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/Meld/:/mnt/c/Users/knolan/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/knolan/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/knolan/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/knolan/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/knolan/.dotnet/tools:/mnt/c/Users/knolan/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/knolan/AppData/Roaming/npm:/snap/bin'), ('WT_SESSION', '529cfa05-c234-48a9-9170-8382a3d8ba56'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/knolan/ros-practice/install/turtlesim:/home/knolan/ros-practice/install/my_service:/home/knolan/ros-practice/install/my_package:/home/knolan/ros-practice/install/interface_practice:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/knolan/ros-practice/build/my_package'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/knolan/ros-practice/install/interface_practice/local/lib/python3.10/dist-packages:/home/knolan/ros-practice/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/knolan/ros-practice/install/interface_practice:/home/knolan/ros-practice/install/turtlesim:/home/knolan/ros-practice/install/my_service:/home/knolan/ros-practice/install/my_package:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.299474] (-) TimerEvent: {}
+[0.352738] (my_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_node\x1b[0m\n'}
+[0.353631] (my_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listener\x1b[0m\n'}
+[0.354167] (my_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[0.360944] (my_package) StdoutLine: {'line': b'[ 33%] Built target my_node\n'}
+[0.368072] (my_package) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/sub.cpp.o\x1b[0m\n'}
+[0.369295] (my_package) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/pub.cpp.o\x1b[0m\n'}
+[0.399595] (-) TimerEvent: {}
+[0.500024] (-) TimerEvent: {}
+[0.600443] (-) TimerEvent: {}
+[0.700942] (-) TimerEvent: {}
+[0.801398] (-) TimerEvent: {}
+[0.901870] (-) TimerEvent: {}
+[1.002415] (-) TimerEvent: {}
+[1.102849] (-) TimerEvent: {}
+[1.203403] (-) TimerEvent: {}
+[1.303890] (-) TimerEvent: {}
+[1.404369] (-) TimerEvent: {}
+[1.504891] (-) TimerEvent: {}
+[1.605476] (-) TimerEvent: {}
+[1.705991] (-) TimerEvent: {}
+[1.806612] (-) TimerEvent: {}
+[1.907190] (-) TimerEvent: {}
+[2.007841] (-) TimerEvent: {}
+[2.108583] (-) TimerEvent: {}
+[2.209250] (-) TimerEvent: {}
+[2.294186] (my_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[2.294596] (my_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.294686] (my_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.294788] (my_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.294854] (my_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.294941] (my_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.295006] (my_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.295067] (my_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.295127] (my_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.295190] (my_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.295261] (my_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.295330] (my_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/knolan/ros-practice/src/my_package/src/pub.cpp:6\x1b[m\x1b[K:\n'}
+[2.295391] (my_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/knolan/ros-practice/src/my_package/src/pub.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalPublisher::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.295455] (my_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/knolan/ros-practice/src/my_package/src/pub.cpp:30:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid operands of types \xe2\x80\x98\x1b[01m\x1b[Kconst char [14]\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kinterface_practice::msg::Num_<std::allocator<void> >::_num_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} to binary \xe2\x80\x98\x1b[01m\x1b[Koperator<<\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.295521] (my_package) StderrLine: {'line': b'   30 |     RCLCPP_INFO(this->get_logger(), \x1b[32m\x1b[K"Publishing: \'"\x1b[m\x1b[K \x1b[01;31m\x1b[K<<\x1b[m\x1b[K \x1b[34m\x1b[Kmessage.num\x1b[m\x1b[K << "\'");\n'}
+[2.295646] (my_package) StderrLine: {'line': b'      |                                     \x1b[32m\x1b[K~~~~~~~~~~~~~~~\x1b[m\x1b[K \x1b[01;31m\x1b[K^~\x1b[m\x1b[K \x1b[34m\x1b[K~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.295728] (my_package) StderrLine: {'line': b'      |                                     \x1b[32m\x1b[K|\x1b[m\x1b[K                          \x1b[34m\x1b[K|\x1b[m\x1b[K\n'}
+[2.295801] (my_package) StderrLine: {'line': b'      |                                     \x1b[32m\x1b[Kconst char [14]\x1b[m\x1b[K            \x1b[34m\x1b[Kinterface_practice::msg::Num_<std::allocator<void> >::_num_type {aka long int}\x1b[m\x1b[K\n'}
+[2.309506] (-) TimerEvent: {}
+[2.339953] (my_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[2.340314] (my_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.340408] (my_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.340480] (my_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.340547] (my_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.340662] (my_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.340756] (my_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.340829] (my_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.340887] (my_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.340957] (my_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.341030] (my_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.341078] (my_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/knolan/ros-practice/src/my_package/src/sub.cpp:3\x1b[m\x1b[K:\n'}
+[2.341122] (my_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/knolan/ros-practice/src/my_package/src/sub.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalSubscriber::topic_callback(const Num&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.341170] (my_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/knolan/ros-practice/src/my_package/src/sub.cpp:20:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid operands of types \xe2\x80\x98\x1b[01m\x1b[Kconst char [11]\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst _num_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst long int\x1b[m\x1b[K\xe2\x80\x99} to binary \xe2\x80\x98\x1b[01m\x1b[Koperator<<\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.341260] (my_package) StderrLine: {'line': b'   20 |         RCLCPP_INFO(this->get_logger(), \x1b[32m\x1b[K"I heard: \'"\x1b[m\x1b[K \x1b[01;31m\x1b[K<<\x1b[m\x1b[K \x1b[34m\x1b[Kmsg.num\x1b[m\x1b[K << "\'");\n'}
+[2.341327] (my_package) StderrLine: {'line': b'      |                                         \x1b[32m\x1b[K~~~~~~~~~~~~\x1b[m\x1b[K \x1b[01;31m\x1b[K^~\x1b[m\x1b[K \x1b[34m\x1b[K~~~~~~~\x1b[m\x1b[K\n'}
+[2.341397] (my_package) StderrLine: {'line': b'      |                                         \x1b[32m\x1b[K|\x1b[m\x1b[K                   \x1b[34m\x1b[K|\x1b[m\x1b[K\n'}
+[2.341464] (my_package) StderrLine: {'line': b'      |                                         \x1b[32m\x1b[Kconst char [11]\x1b[m\x1b[K     \x1b[34m\x1b[Kconst _num_type {aka const long int}\x1b[m\x1b[K\n'}
+[2.409794] (-) TimerEvent: {}
+[2.510452] (-) TimerEvent: {}
+[2.611134] (-) TimerEvent: {}
+[2.711840] (-) TimerEvent: {}
+[2.812337] (-) TimerEvent: {}
+[2.912918] (-) TimerEvent: {}
+[3.013503] (-) TimerEvent: {}
+[3.020712] (my_package) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/pub.cpp.o] Error 1\n'}
+[3.021156] (my_package) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/talker.dir/all] Error 2\n'}
+[3.021359] (my_package) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[3.113818] (-) TimerEvent: {}
+[3.214248] (-) TimerEvent: {}
+[3.314679] (-) TimerEvent: {}
+[3.415020] (-) TimerEvent: {}
+[3.515484] (-) TimerEvent: {}
+[3.615958] (-) TimerEvent: {}
+[3.716491] (-) TimerEvent: {}
+[3.816969] (-) TimerEvent: {}
+[3.917575] (-) TimerEvent: {}
+[4.018119] (-) TimerEvent: {}
+[4.118559] (-) TimerEvent: {}
+[4.120940] (my_package) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/sub.cpp.o] Error 1\n'}
+[4.121375] (my_package) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/listener.dir/all] Error 2\n'}
+[4.121545] (my_package) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.124618] (my_package) CommandEnded: {'returncode': 2}
+[4.141236] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 2}
+[4.152365] (-) EventReactorShutdown: {}

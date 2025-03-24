@@ -1,0 +1,55 @@
+[0.294s] Invoking command in '/home/knolan/ros-practice/build/my_package': CMAKE_PREFIX_PATH=/home/knolan/ros-practice/install/interface_practice:/home/knolan/ros-practice/install/turtlesim:/home/knolan/ros-practice/install/my_service:/home/knolan/ros-practice/install/my_package:/opt/ros/humble LD_LIBRARY_PATH=/home/knolan/ros-practice/install/interface_practice/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/knolan/ros-practice/install/interface_practice/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/knolan/ros-practice/build/my_package -- -j12 -l12
+[0.395s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.397s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.400s] [ 33%] Built target my_node
+[0.409s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/pub.cpp.o[0m
+[0.411s] [ 66%] [32mBuilding CXX object CMakeFiles/listener.dir/src/sub.cpp.o[0m
+[2.322s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.323s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.323s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.323s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.323s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.323s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.323s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.323s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.323s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.323s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.324s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.324s]                  from [01m[K/home/knolan/ros-practice/src/my_package/src/sub.cpp:3[m[K:
+[2.324s] [01m[K/home/knolan/ros-practice/src/my_package/src/sub.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(const Num&) const[m[K’:
+[2.324s] [01m[K/home/knolan/ros-practice/src/my_package/src/sub.cpp:20:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Klong int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.324s]    20 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"I heard: '%d'"[m[K, [32m[Kmsg.num[m[K);
+[2.324s]       |                                         [01;35m[K^~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~[m[K
+[2.324s]       |                                                              [32m[K|[m[K
+[2.324s]       |                                                              [32m[Klong int[m[K
+[2.324s] [01m[K/home/knolan/ros-practice/src/my_package/src/sub.cpp:20:53:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.324s]    20 |         RCLCPP_INFO(this->get_logger(), "I heard: '[01;36m[K%d[m[K'", msg.num);
+[2.325s]       |                                                    [01;36m[K~^[m[K
+[2.325s]       |                                                     [01;36m[K|[m[K
+[2.325s]       |                                                     [01;36m[Kint[m[K
+[2.325s]       |                                                    [32m[K%ld[m[K
+[2.406s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.406s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.406s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.407s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.407s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.407s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.407s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.407s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.407s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.407s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.407s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.407s]                  from [01m[K/home/knolan/ros-practice/src/my_package/src/pub.cpp:6[m[K:
+[2.407s] [01m[K/home/knolan/ros-practice/src/my_package/src/pub.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[2.407s] [01m[K/home/knolan/ros-practice/src/my_package/src/pub.cpp:30:53:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kconst char [14][m[K’ and ‘[01m[Kinterface_practice::msg::Num_<std::allocator<void> >::_num_type[m[K’ {aka ‘[01m[Klong int[m[K’} to binary ‘[01m[Koperator<<[m[K’
+[2.407s]    30 |     RCLCPP_INFO(this->get_logger(), [32m[K"Publishing: '"[m[K [01;31m[K<<[m[K [34m[Kmessage.num[m[K << "'");
+[2.407s]       |                                     [32m[K~~~~~~~~~~~~~~~[m[K [01;31m[K^~[m[K [34m[K~~~~~~~~~~~[m[K
+[2.408s]       |                                     [32m[K|[m[K                          [34m[K|[m[K
+[2.408s]       |                                     [32m[Kconst char [14][m[K            [34m[Kinterface_practice::msg::Num_<std::allocator<void> >::_num_type {aka long int}[m[K
+[3.152s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/pub.cpp.o] Error 1
+[3.153s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/talker.dir/all] Error 2
+[3.153s] gmake[1]: *** Waiting for unfinished jobs....
+[6.113s] [ 83%] [32m[1mLinking CXX executable listener[0m
+[6.768s] [ 83%] Built target listener
+[6.769s] gmake: *** [Makefile:146: all] Error 2
+[6.771s] Invoked command in '/home/knolan/ros-practice/build/my_package' returned '2': CMAKE_PREFIX_PATH=/home/knolan/ros-practice/install/interface_practice:/home/knolan/ros-practice/install/turtlesim:/home/knolan/ros-practice/install/my_service:/home/knolan/ros-practice/install/my_package:/opt/ros/humble LD_LIBRARY_PATH=/home/knolan/ros-practice/install/interface_practice/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/knolan/ros-practice/install/interface_practice/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/knolan/ros-practice/build/my_package -- -j12 -l12
