@@ -1,0 +1,355 @@
+[0.000000] (-) TimerEvent: {}
+[0.000690] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.000736] (-) JobUnselected: {'identifier': 'interface_practice'}
+[0.000750] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000759] (-) JobUnselected: {'identifier': 'my_service'}
+[0.000769] (polygon_base) JobQueued: {'identifier': 'polygon_base', 'dependencies': OrderedDict()}
+[0.000781] (polygon_plugins) JobQueued: {'identifier': 'polygon_plugins', 'dependencies': OrderedDict([('polygon_base', '/home/knolan/ros-practice/install/polygon_base')])}
+[0.000792] (polygon_base) JobStarted: {'identifier': 'polygon_base'}
+[0.010432] (polygon_base) JobProgress: {'identifier': 'polygon_base', 'progress': 'cmake'}
+[0.011362] (polygon_base) Command: {'cmd': ['/usr/bin/cmake', '/home/knolan/ros-practice/src/polygon_base', '-DCMAKE_INSTALL_PREFIX=/home/knolan/ros-practice/install/polygon_base'], 'cwd': '/home/knolan/ros-practice/build/polygon_base', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'knolan'), ('SSH_AGENT_PID', '42170'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/knolan/ros-practice/install/interface_practice/lib:/home/knolan/ros-practice/install/turtlesim/lib:/home/knolan/ros2_ws2/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{51855cb2-8cce-5362-8f54-464b92b32386}'), ('HOME', '/home/knolan'), ('OLDPWD', '/home/knolan/ros-practice/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/knolan/ros-practice/install:/home/knolan/ros2_ws2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'knolan'), ('NAME', 'HPX360-09'), ('WSL_INTEROP', '/run/WSL/22296_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/TwinCAT/Common64:/mnt/c/TwinCAT/Common32:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/WireGuard/:/mnt/c/Program Files/Fortect:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X64/:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X86/:/mnt/c/Program Files (x86)/Common Files/Pulse Secure/TNC Client Plugin/:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/Meld/:/mnt/c/Users/knolan/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/knolan/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/knolan/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/knolan/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/knolan/.dotnet/tools:/mnt/c/Users/knolan/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/knolan/AppData/Roaming/npm:/snap/bin'), ('WT_SESSION', '81afe777-187f-40a4-8a8c-c102a0f92460'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXFfVy4b/agent.42169'), ('AMENT_PREFIX_PATH', '/home/knolan/ros-practice/install/interface_practice:/home/knolan/ros-practice/install/cpp_parameters:/home/knolan/ros-practice/install/my_service:/home/knolan/ros-practice/install/turtlesim:/home/knolan/ros-practice/install/my_package:/home/knolan/ros2_ws2/install/turtlesim:/home/knolan/ros2_ws2/install/my_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/knolan/ros-practice/build/polygon_base'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/knolan/ros-practice/install/interface_practice/local/lib/python3.10/dist-packages:/home/knolan/ros-practice/install/turtlesim/local/lib/python3.10/dist-packages:/home/knolan/ros2_ws2/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/knolan/ros-practice/install/interface_practice:/home/knolan/ros-practice/install/cpp_parameters:/home/knolan/ros-practice/install/my_service:/home/knolan/ros-practice/install/turtlesim:/home/knolan/ros-practice/install/my_package:/home/knolan/ros2_ws2/install/turtlesim:/home/knolan/ros2_ws2/install/my_package:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.099609] (-) TimerEvent: {}
+[0.199991] (-) TimerEvent: {}
+[0.300652] (-) TimerEvent: {}
+[0.401356] (-) TimerEvent: {}
+[0.416490] (polygon_base) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.501624] (-) TimerEvent: {}
+[0.602334] (-) TimerEvent: {}
+[0.702936] (-) TimerEvent: {}
+[0.803543] (-) TimerEvent: {}
+[0.903982] (-) TimerEvent: {}
+[1.004479] (-) TimerEvent: {}
+[1.105052] (-) TimerEvent: {}
+[1.205399] (-) TimerEvent: {}
+[1.305868] (-) TimerEvent: {}
+[1.406466] (-) TimerEvent: {}
+[1.507011] (-) TimerEvent: {}
+[1.607607] (-) TimerEvent: {}
+[1.708036] (-) TimerEvent: {}
+[1.808442] (-) TimerEvent: {}
+[1.908925] (-) TimerEvent: {}
+[2.005650] (polygon_base) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.009151] (-) TimerEvent: {}
+[2.109426] (-) TimerEvent: {}
+[2.209916] (-) TimerEvent: {}
+[2.310505] (-) TimerEvent: {}
+[2.410955] (-) TimerEvent: {}
+[2.511391] (-) TimerEvent: {}
+[2.611840] (-) TimerEvent: {}
+[2.712284] (-) TimerEvent: {}
+[2.812724] (-) TimerEvent: {}
+[2.913367] (-) TimerEvent: {}
+[3.013959] (-) TimerEvent: {}
+[3.102088] (polygon_base) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.114238] (-) TimerEvent: {}
+[3.214559] (-) TimerEvent: {}
+[3.314894] (-) TimerEvent: {}
+[3.415497] (-) TimerEvent: {}
+[3.425531] (polygon_base) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.430684] (polygon_base) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.436820] (polygon_base) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.437367] (polygon_base) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.440872] (polygon_base) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.515632] (-) TimerEvent: {}
+[3.616230] (-) TimerEvent: {}
+[3.716690] (-) TimerEvent: {}
+[3.745539] (polygon_base) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.750688] (polygon_base) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.751138] (polygon_base) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.751478] (polygon_base) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.763472] (polygon_base) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.816955] (-) TimerEvent: {}
+[3.871638] (polygon_base) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.917068] (-) TimerEvent: {}
+[3.968606] (polygon_base) StdoutLine: {'line': b'-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)\n'}
+[4.017270] (-) TimerEvent: {}
+[4.117593] (-) TimerEvent: {}
+[4.217998] (-) TimerEvent: {}
+[4.318574] (-) TimerEvent: {}
+[4.419156] (-) TimerEvent: {}
+[4.519744] (-) TimerEvent: {}
+[4.620221] (-) TimerEvent: {}
+[4.720721] (-) TimerEvent: {}
+[4.821136] (-) TimerEvent: {}
+[4.921571] (-) TimerEvent: {}
+[5.022108] (-) TimerEvent: {}
+[5.122465] (-) TimerEvent: {}
+[5.222937] (-) TimerEvent: {}
+[5.323382] (-) TimerEvent: {}
+[5.423909] (-) TimerEvent: {}
+[5.524584] (-) TimerEvent: {}
+[5.625142] (-) TimerEvent: {}
+[5.725553] (-) TimerEvent: {}
+[5.826031] (-) TimerEvent: {}
+[5.926730] (-) TimerEvent: {}
+[6.027224] (-) TimerEvent: {}
+[6.127796] (-) TimerEvent: {}
+[6.228186] (-) TimerEvent: {}
+[6.328741] (-) TimerEvent: {}
+[6.429181] (-) TimerEvent: {}
+[6.529685] (-) TimerEvent: {}
+[6.630283] (-) TimerEvent: {}
+[6.730959] (-) TimerEvent: {}
+[6.831751] (-) TimerEvent: {}
+[6.932486] (-) TimerEvent: {}
+[7.033296] (-) TimerEvent: {}
+[7.133967] (-) TimerEvent: {}
+[7.234511] (-) TimerEvent: {}
+[7.335253] (-) TimerEvent: {}
+[7.435761] (-) TimerEvent: {}
+[7.536325] (-) TimerEvent: {}
+[7.636836] (-) TimerEvent: {}
+[7.737452] (-) TimerEvent: {}
+[7.838131] (-) TimerEvent: {}
+[7.938744] (-) TimerEvent: {}
+[8.039414] (-) TimerEvent: {}
+[8.140072] (-) TimerEvent: {}
+[8.240746] (-) TimerEvent: {}
+[8.341237] (-) TimerEvent: {}
+[8.441698] (-) TimerEvent: {}
+[8.542318] (-) TimerEvent: {}
+[8.642892] (-) TimerEvent: {}
+[8.716067] (polygon_base) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[8.742996] (-) TimerEvent: {}
+[8.819279] (polygon_base) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[8.819443] (polygon_base) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/knolan/ros-practice/src/polygon_base/include>\n'}
+[8.819483] (polygon_base) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[8.820889] (polygon_base) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.822131] (polygon_base) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[8.822311] (polygon_base) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[8.822754] (polygon_base) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.826072] (polygon_base) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.831443] (polygon_base) StdoutLine: {'line': b'-- Generating done\n'}
+[8.833508] (polygon_base) StdoutLine: {'line': b'-- Build files have been written to: /home/knolan/ros-practice/build/polygon_base\n'}
+[8.843161] (-) TimerEvent: {}
+[8.853305] (polygon_base) CommandEnded: {'returncode': 0}
+[8.853894] (polygon_base) JobProgress: {'identifier': 'polygon_base', 'progress': 'build'}
+[8.854622] (polygon_base) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/knolan/ros-practice/build/polygon_base', '--', '-j12', '-l12'], 'cwd': '/home/knolan/ros-practice/build/polygon_base', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'knolan'), ('SSH_AGENT_PID', '42170'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/knolan/ros-practice/install/interface_practice/lib:/home/knolan/ros-practice/install/turtlesim/lib:/home/knolan/ros2_ws2/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{51855cb2-8cce-5362-8f54-464b92b32386}'), ('HOME', '/home/knolan'), ('OLDPWD', '/home/knolan/ros-practice/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/knolan/ros-practice/install:/home/knolan/ros2_ws2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'knolan'), ('NAME', 'HPX360-09'), ('WSL_INTEROP', '/run/WSL/22296_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/TwinCAT/Common64:/mnt/c/TwinCAT/Common32:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/WireGuard/:/mnt/c/Program Files/Fortect:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X64/:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X86/:/mnt/c/Program Files (x86)/Common Files/Pulse Secure/TNC Client Plugin/:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/Meld/:/mnt/c/Users/knolan/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/knolan/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/knolan/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/knolan/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/knolan/.dotnet/tools:/mnt/c/Users/knolan/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/knolan/AppData/Roaming/npm:/snap/bin'), ('WT_SESSION', '81afe777-187f-40a4-8a8c-c102a0f92460'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXFfVy4b/agent.42169'), ('AMENT_PREFIX_PATH', '/home/knolan/ros-practice/install/interface_practice:/home/knolan/ros-practice/install/cpp_parameters:/home/knolan/ros-practice/install/my_service:/home/knolan/ros-practice/install/turtlesim:/home/knolan/ros-practice/install/my_package:/home/knolan/ros2_ws2/install/turtlesim:/home/knolan/ros2_ws2/install/my_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/knolan/ros-practice/build/polygon_base'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/knolan/ros-practice/install/interface_practice/local/lib/python3.10/dist-packages:/home/knolan/ros-practice/install/turtlesim/local/lib/python3.10/dist-packages:/home/knolan/ros2_ws2/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/knolan/ros-practice/install/interface_practice:/home/knolan/ros-practice/install/cpp_parameters:/home/knolan/ros-practice/install/my_service:/home/knolan/ros-practice/install/turtlesim:/home/knolan/ros-practice/install/my_package:/home/knolan/ros2_ws2/install/turtlesim:/home/knolan/ros2_ws2/install/my_package:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[8.905877] (polygon_base) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/area_node.dir/src/area_node.cpp.o\x1b[0m\n'}
+[8.943296] (-) TimerEvent: {}
+[9.043629] (-) TimerEvent: {}
+[9.143970] (-) TimerEvent: {}
+[9.244444] (-) TimerEvent: {}
+[9.344927] (-) TimerEvent: {}
+[9.445483] (-) TimerEvent: {}
+[9.545984] (-) TimerEvent: {}
+[9.646640] (-) TimerEvent: {}
+[9.746977] (-) TimerEvent: {}
+[9.847564] (-) TimerEvent: {}
+[9.948053] (-) TimerEvent: {}
+[10.048599] (-) TimerEvent: {}
+[10.149386] (-) TimerEvent: {}
+[10.249921] (-) TimerEvent: {}
+[10.350451] (-) TimerEvent: {}
+[10.450906] (-) TimerEvent: {}
+[10.551326] (-) TimerEvent: {}
+[10.651879] (-) TimerEvent: {}
+[10.752419] (-) TimerEvent: {}
+[10.852927] (-) TimerEvent: {}
+[10.878283] (polygon_base) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable area_node\x1b[0m\n'}
+[10.953215] (-) TimerEvent: {}
+[11.053717] (-) TimerEvent: {}
+[11.154239] (-) TimerEvent: {}
+[11.254637] (-) TimerEvent: {}
+[11.255072] (polygon_base) StdoutLine: {'line': b'[100%] Built target area_node\n'}
+[11.263685] (polygon_base) CommandEnded: {'returncode': 0}
+[11.264658] (polygon_base) JobProgress: {'identifier': 'polygon_base', 'progress': 'install'}
+[11.270787] (polygon_base) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/knolan/ros-practice/build/polygon_base'], 'cwd': '/home/knolan/ros-practice/build/polygon_base', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'knolan'), ('SSH_AGENT_PID', '42170'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/knolan/ros-practice/install/interface_practice/lib:/home/knolan/ros-practice/install/turtlesim/lib:/home/knolan/ros2_ws2/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{51855cb2-8cce-5362-8f54-464b92b32386}'), ('HOME', '/home/knolan'), ('OLDPWD', '/home/knolan/ros-practice/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/knolan/ros-practice/install:/home/knolan/ros2_ws2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'knolan'), ('NAME', 'HPX360-09'), ('WSL_INTEROP', '/run/WSL/22296_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/TwinCAT/Common64:/mnt/c/TwinCAT/Common32:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/WireGuard/:/mnt/c/Program Files/Fortect:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X64/:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X86/:/mnt/c/Program Files (x86)/Common Files/Pulse Secure/TNC Client Plugin/:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/Meld/:/mnt/c/Users/knolan/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/knolan/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/knolan/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/knolan/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/knolan/.dotnet/tools:/mnt/c/Users/knolan/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/knolan/AppData/Roaming/npm:/snap/bin'), ('WT_SESSION', '81afe777-187f-40a4-8a8c-c102a0f92460'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXFfVy4b/agent.42169'), ('AMENT_PREFIX_PATH', '/home/knolan/ros-practice/install/interface_practice:/home/knolan/ros-practice/install/cpp_parameters:/home/knolan/ros-practice/install/my_service:/home/knolan/ros-practice/install/turtlesim:/home/knolan/ros-practice/install/my_package:/home/knolan/ros2_ws2/install/turtlesim:/home/knolan/ros2_ws2/install/my_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/knolan/ros-practice/build/polygon_base'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/knolan/ros-practice/install/interface_practice/local/lib/python3.10/dist-packages:/home/knolan/ros-practice/install/turtlesim/local/lib/python3.10/dist-packages:/home/knolan/ros2_ws2/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/knolan/ros-practice/install/interface_practice:/home/knolan/ros-practice/install/cpp_parameters:/home/knolan/ros-practice/install/my_service:/home/knolan/ros-practice/install/turtlesim:/home/knolan/ros-practice/install/my_package:/home/knolan/ros2_ws2/install/turtlesim:/home/knolan/ros2_ws2/install/my_package:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[11.276119] (polygon_base) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.276412] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/polygon_base/include\n'}
+[11.277244] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/polygon_base/include/polygon_base\n'}
+[11.277499] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/polygon_base/include/polygon_base/regular_polygon.hpp\n'}
+[11.277652] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/polygon_base/lib/polygon_base/area_node\n'}
+[11.278380] (polygon_base) StdoutLine: {'line': b'-- Set runtime path of "/home/knolan/ros-practice/install/polygon_base/lib/polygon_base/area_node" to ""\n'}
+[11.278624] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/polygon_base/share/ament_index/resource_index/package_run_dependencies/polygon_base\n'}
+[11.278870] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/polygon_base/share/ament_index/resource_index/parent_prefix_path/polygon_base\n'}
+[11.278987] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/polygon_base/share/polygon_base/environment/ament_prefix_path.sh\n'}
+[11.279068] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/polygon_base/share/polygon_base/environment/ament_prefix_path.dsv\n'}
+[11.279281] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/polygon_base/share/polygon_base/environment/path.sh\n'}
+[11.279575] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/polygon_base/share/polygon_base/environment/path.dsv\n'}
+[11.279683] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/polygon_base/share/polygon_base/local_setup.bash\n'}
+[11.279765] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/polygon_base/share/polygon_base/local_setup.sh\n'}
+[11.279910] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/polygon_base/share/polygon_base/local_setup.zsh\n'}
+[11.279988] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/polygon_base/share/polygon_base/local_setup.dsv\n'}
+[11.280070] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/polygon_base/share/polygon_base/package.dsv\n'}
+[11.280183] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/polygon_base/share/ament_index/resource_index/packages/polygon_base\n'}
+[11.280363] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/polygon_base/share/polygon_base/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.280485] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig.cmake\n'}
+[11.280797] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig-version.cmake\n'}
+[11.280985] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/polygon_base/share/polygon_base/package.xml\n'}
+[11.282680] (polygon_base) CommandEnded: {'returncode': 0}
+[11.302764] (polygon_base) JobEnded: {'identifier': 'polygon_base', 'rc': 0}
+[11.303718] (polygon_plugins) JobStarted: {'identifier': 'polygon_plugins'}
+[11.354839] (-) TimerEvent: {}
+[11.455377] (-) TimerEvent: {}
+[11.460319] (polygon_plugins) JobProgress: {'identifier': 'polygon_plugins', 'progress': 'cmake'}
+[11.462300] (polygon_plugins) Command: {'cmd': ['/usr/bin/cmake', '/home/knolan/ros-practice/src/polygon_plugins', '-DCMAKE_INSTALL_PREFIX=/home/knolan/ros-practice/install/polygon_plugins'], 'cwd': '/home/knolan/ros-practice/build/polygon_plugins', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'knolan'), ('SSH_AGENT_PID', '42170'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/knolan/ros-practice/install/interface_practice/lib:/home/knolan/ros-practice/install/turtlesim/lib:/home/knolan/ros2_ws2/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{51855cb2-8cce-5362-8f54-464b92b32386}'), ('HOME', '/home/knolan'), ('OLDPWD', '/home/knolan/ros-practice/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/knolan/ros-practice/install:/home/knolan/ros2_ws2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'knolan'), ('NAME', 'HPX360-09'), ('WSL_INTEROP', '/run/WSL/22296_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/TwinCAT/Common64:/mnt/c/TwinCAT/Common32:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/WireGuard/:/mnt/c/Program Files/Fortect:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X64/:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X86/:/mnt/c/Program Files (x86)/Common Files/Pulse Secure/TNC Client Plugin/:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/Meld/:/mnt/c/Users/knolan/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/knolan/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/knolan/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/knolan/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/knolan/.dotnet/tools:/mnt/c/Users/knolan/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/knolan/AppData/Roaming/npm:/snap/bin'), ('WT_SESSION', '81afe777-187f-40a4-8a8c-c102a0f92460'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXFfVy4b/agent.42169'), ('AMENT_PREFIX_PATH', '/home/knolan/ros-practice/install/polygon_base:/home/knolan/ros-practice/install/interface_practice:/home/knolan/ros-practice/install/cpp_parameters:/home/knolan/ros-practice/install/my_service:/home/knolan/ros-practice/install/turtlesim:/home/knolan/ros-practice/install/my_package:/home/knolan/ros2_ws2/install/turtlesim:/home/knolan/ros2_ws2/install/my_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/knolan/ros-practice/build/polygon_plugins'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/knolan/ros-practice/install/interface_practice/local/lib/python3.10/dist-packages:/home/knolan/ros-practice/install/turtlesim/local/lib/python3.10/dist-packages:/home/knolan/ros2_ws2/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/knolan/ros-practice/install/polygon_base:/home/knolan/ros-practice/install/interface_practice:/home/knolan/ros-practice/install/cpp_parameters:/home/knolan/ros-practice/install/my_service:/home/knolan/ros-practice/install/turtlesim:/home/knolan/ros-practice/install/my_package:/home/knolan/ros2_ws2/install/turtlesim:/home/knolan/ros2_ws2/install/my_package:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[11.555485] (-) TimerEvent: {}
+[11.655876] (-) TimerEvent: {}
+[11.756522] (-) TimerEvent: {}
+[11.857087] (-) TimerEvent: {}
+[11.859234] (polygon_plugins) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[11.957239] (-) TimerEvent: {}
+[12.057825] (-) TimerEvent: {}
+[12.158324] (-) TimerEvent: {}
+[12.258675] (-) TimerEvent: {}
+[12.359143] (-) TimerEvent: {}
+[12.459731] (-) TimerEvent: {}
+[12.560365] (-) TimerEvent: {}
+[12.660838] (-) TimerEvent: {}
+[12.761136] (-) TimerEvent: {}
+[12.861517] (-) TimerEvent: {}
+[12.962103] (-) TimerEvent: {}
+[13.062620] (-) TimerEvent: {}
+[13.163152] (-) TimerEvent: {}
+[13.263543] (-) TimerEvent: {}
+[13.363994] (-) TimerEvent: {}
+[13.379218] (polygon_plugins) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[13.464185] (-) TimerEvent: {}
+[13.564674] (-) TimerEvent: {}
+[13.665149] (-) TimerEvent: {}
+[13.765622] (-) TimerEvent: {}
+[13.866129] (-) TimerEvent: {}
+[13.966685] (-) TimerEvent: {}
+[14.067250] (-) TimerEvent: {}
+[14.167936] (-) TimerEvent: {}
+[14.268372] (-) TimerEvent: {}
+[14.368836] (-) TimerEvent: {}
+[14.469458] (-) TimerEvent: {}
+[14.570044] (-) TimerEvent: {}
+[14.632942] (polygon_plugins) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[14.670292] (-) TimerEvent: {}
+[14.770661] (-) TimerEvent: {}
+[14.871341] (-) TimerEvent: {}
+[14.946475] (polygon_plugins) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[14.951594] (polygon_plugins) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[14.952144] (polygon_plugins) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[14.953040] (polygon_plugins) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[14.956975] (polygon_plugins) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[14.971465] (-) TimerEvent: {}
+[15.071984] (-) TimerEvent: {}
+[15.172575] (-) TimerEvent: {}
+[15.273093] (-) TimerEvent: {}
+[15.304383] (polygon_plugins) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[15.309038] (polygon_plugins) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[15.309358] (polygon_plugins) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[15.309738] (polygon_plugins) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[15.314163] (polygon_plugins) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[15.373429] (-) TimerEvent: {}
+[15.426011] (polygon_plugins) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[15.473559] (-) TimerEvent: {}
+[15.525811] (polygon_plugins) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[15.535786] (polygon_plugins) StdoutLine: {'line': b'-- Found polygon_base: 0.0.0 (/home/knolan/ros-practice/install/polygon_base/share/polygon_base/cmake)\n'}
+[15.538005] (polygon_plugins) StdoutLine: {'line': b'-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)\n'}
+[15.573810] (-) TimerEvent: {}
+[15.674339] (-) TimerEvent: {}
+[15.774913] (-) TimerEvent: {}
+[15.875377] (-) TimerEvent: {}
+[15.975865] (-) TimerEvent: {}
+[16.076270] (-) TimerEvent: {}
+[16.176681] (-) TimerEvent: {}
+[16.277072] (-) TimerEvent: {}
+[16.377592] (-) TimerEvent: {}
+[16.478045] (-) TimerEvent: {}
+[16.578490] (-) TimerEvent: {}
+[16.678983] (-) TimerEvent: {}
+[16.779634] (-) TimerEvent: {}
+[16.880105] (-) TimerEvent: {}
+[16.980705] (-) TimerEvent: {}
+[17.081155] (-) TimerEvent: {}
+[17.181789] (-) TimerEvent: {}
+[17.282249] (-) TimerEvent: {}
+[17.382771] (-) TimerEvent: {}
+[17.483488] (-) TimerEvent: {}
+[17.584024] (-) TimerEvent: {}
+[17.684633] (-) TimerEvent: {}
+[17.785110] (-) TimerEvent: {}
+[17.885673] (-) TimerEvent: {}
+[17.986252] (-) TimerEvent: {}
+[18.086821] (-) TimerEvent: {}
+[18.187290] (-) TimerEvent: {}
+[18.287826] (-) TimerEvent: {}
+[18.388262] (-) TimerEvent: {}
+[18.488841] (-) TimerEvent: {}
+[18.589397] (-) TimerEvent: {}
+[18.690095] (-) TimerEvent: {}
+[18.790524] (-) TimerEvent: {}
+[18.890865] (-) TimerEvent: {}
+[18.991348] (-) TimerEvent: {}
+[19.091826] (-) TimerEvent: {}
+[19.192678] (-) TimerEvent: {}
+[19.293207] (-) TimerEvent: {}
+[19.393839] (-) TimerEvent: {}
+[19.494288] (-) TimerEvent: {}
+[19.594793] (-) TimerEvent: {}
+[19.695256] (-) TimerEvent: {}
+[19.795745] (-) TimerEvent: {}
+[19.896240] (-) TimerEvent: {}
+[19.996759] (-) TimerEvent: {}
+[20.097197] (-) TimerEvent: {}
+[20.197933] (-) TimerEvent: {}
+[20.298577] (-) TimerEvent: {}
+[20.398965] (-) TimerEvent: {}
+[20.499452] (-) TimerEvent: {}
+[20.599967] (-) TimerEvent: {}
+[20.700714] (-) TimerEvent: {}
+[20.712805] (polygon_plugins) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[20.766170] (polygon_plugins) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[20.766337] (polygon_plugins) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/knolan/ros-practice/src/polygon_plugins/include>\n'}
+[20.766374] (polygon_plugins) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[20.767135] (polygon_plugins) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[20.767616] (polygon_plugins) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[20.767704] (polygon_plugins) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[20.768089] (polygon_plugins) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[20.773109] (polygon_plugins) StdoutLine: {'line': b'-- Configuring done\n'}
+[20.776886] (polygon_plugins) StdoutLine: {'line': b'-- Generating done\n'}
+[20.778757] (polygon_plugins) StdoutLine: {'line': b'-- Build files have been written to: /home/knolan/ros-practice/build/polygon_plugins\n'}
+[20.784065] (polygon_plugins) CommandEnded: {'returncode': 0}
+[20.786101] (polygon_plugins) JobProgress: {'identifier': 'polygon_plugins', 'progress': 'build'}
+[20.786199] (polygon_plugins) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/knolan/ros-practice/build/polygon_plugins', '--', '-j12', '-l12'], 'cwd': '/home/knolan/ros-practice/build/polygon_plugins', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'knolan'), ('SSH_AGENT_PID', '42170'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/knolan/ros-practice/install/interface_practice/lib:/home/knolan/ros-practice/install/turtlesim/lib:/home/knolan/ros2_ws2/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{51855cb2-8cce-5362-8f54-464b92b32386}'), ('HOME', '/home/knolan'), ('OLDPWD', '/home/knolan/ros-practice/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/knolan/ros-practice/install:/home/knolan/ros2_ws2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'knolan'), ('NAME', 'HPX360-09'), ('WSL_INTEROP', '/run/WSL/22296_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/TwinCAT/Common64:/mnt/c/TwinCAT/Common32:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/WireGuard/:/mnt/c/Program Files/Fortect:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X64/:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X86/:/mnt/c/Program Files (x86)/Common Files/Pulse Secure/TNC Client Plugin/:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/Meld/:/mnt/c/Users/knolan/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/knolan/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/knolan/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/knolan/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/knolan/.dotnet/tools:/mnt/c/Users/knolan/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/knolan/AppData/Roaming/npm:/snap/bin'), ('WT_SESSION', '81afe777-187f-40a4-8a8c-c102a0f92460'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXFfVy4b/agent.42169'), ('AMENT_PREFIX_PATH', '/home/knolan/ros-practice/install/polygon_base:/home/knolan/ros-practice/install/interface_practice:/home/knolan/ros-practice/install/cpp_parameters:/home/knolan/ros-practice/install/my_service:/home/knolan/ros-practice/install/turtlesim:/home/knolan/ros-practice/install/my_package:/home/knolan/ros2_ws2/install/turtlesim:/home/knolan/ros2_ws2/install/my_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/knolan/ros-practice/build/polygon_plugins'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/knolan/ros-practice/install/interface_practice/local/lib/python3.10/dist-packages:/home/knolan/ros-practice/install/turtlesim/local/lib/python3.10/dist-packages:/home/knolan/ros2_ws2/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/knolan/ros-practice/install/polygon_base:/home/knolan/ros-practice/install/interface_practice:/home/knolan/ros-practice/install/cpp_parameters:/home/knolan/ros-practice/install/my_service:/home/knolan/ros-practice/install/turtlesim:/home/knolan/ros-practice/install/my_package:/home/knolan/ros2_ws2/install/turtlesim:/home/knolan/ros2_ws2/install/my_package:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[20.800870] (-) TimerEvent: {}
+[20.815720] (polygon_plugins) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/polygon_plugins.dir/src/polygon_plugins.cpp.o\x1b[0m\n'}
+[20.901247] (-) TimerEvent: {}
+[21.001783] (-) TimerEvent: {}
+[21.102125] (-) TimerEvent: {}
+[21.202667] (-) TimerEvent: {}
+[21.229288] (polygon_plugins) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libpolygon_plugins.so\x1b[0m\n'}
+[21.302981] (-) TimerEvent: {}
+[21.403431] (-) TimerEvent: {}
+[21.503982] (-) TimerEvent: {}
+[21.530051] (polygon_plugins) StdoutLine: {'line': b'[100%] Built target polygon_plugins\n'}
+[21.537893] (polygon_plugins) CommandEnded: {'returncode': 0}
+[21.538742] (polygon_plugins) JobProgress: {'identifier': 'polygon_plugins', 'progress': 'install'}
+[21.540194] (polygon_plugins) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/knolan/ros-practice/build/polygon_plugins'], 'cwd': '/home/knolan/ros-practice/build/polygon_plugins', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'knolan'), ('SSH_AGENT_PID', '42170'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/knolan/ros-practice/install/interface_practice/lib:/home/knolan/ros-practice/install/turtlesim/lib:/home/knolan/ros2_ws2/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{51855cb2-8cce-5362-8f54-464b92b32386}'), ('HOME', '/home/knolan'), ('OLDPWD', '/home/knolan/ros-practice/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/knolan/ros-practice/install:/home/knolan/ros2_ws2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'knolan'), ('NAME', 'HPX360-09'), ('WSL_INTEROP', '/run/WSL/22296_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/TwinCAT/Common64:/mnt/c/TwinCAT/Common32:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/WireGuard/:/mnt/c/Program Files/Fortect:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X64/:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X86/:/mnt/c/Program Files (x86)/Common Files/Pulse Secure/TNC Client Plugin/:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/Meld/:/mnt/c/Users/knolan/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/knolan/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/knolan/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/knolan/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/knolan/.dotnet/tools:/mnt/c/Users/knolan/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/knolan/AppData/Roaming/npm:/snap/bin'), ('WT_SESSION', '81afe777-187f-40a4-8a8c-c102a0f92460'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXFfVy4b/agent.42169'), ('AMENT_PREFIX_PATH', '/home/knolan/ros-practice/install/polygon_base:/home/knolan/ros-practice/install/interface_practice:/home/knolan/ros-practice/install/cpp_parameters:/home/knolan/ros-practice/install/my_service:/home/knolan/ros-practice/install/turtlesim:/home/knolan/ros-practice/install/my_package:/home/knolan/ros2_ws2/install/turtlesim:/home/knolan/ros2_ws2/install/my_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/knolan/ros-practice/build/polygon_plugins'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/knolan/ros-practice/install/interface_practice/local/lib/python3.10/dist-packages:/home/knolan/ros-practice/install/turtlesim/local/lib/python3.10/dist-packages:/home/knolan/ros2_ws2/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/knolan/ros-practice/install/polygon_base:/home/knolan/ros-practice/install/interface_practice:/home/knolan/ros-practice/install/cpp_parameters:/home/knolan/ros-practice/install/my_service:/home/knolan/ros-practice/install/turtlesim:/home/knolan/ros-practice/install/my_package:/home/knolan/ros2_ws2/install/turtlesim:/home/knolan/ros2_ws2/install/my_package:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[21.544028] (polygon_plugins) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.544336] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/polygon_plugins/include\n'}
+[21.544430] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/polygon_plugins/include/polygon_plugins\n'}
+[21.544504] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/polygon_plugins/include/polygon_plugins/polygon_plugins.hpp\n'}
+[21.544955] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/polygon_plugins/include/polygon_plugins/visibility_control.h\n'}
+[21.545261] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/polygon_plugins/lib/libpolygon_plugins.so\n'}
+[21.545480] (polygon_plugins) StdoutLine: {'line': b'-- Set runtime path of "/home/knolan/ros-practice/install/polygon_plugins/lib/libpolygon_plugins.so" to ""\n'}
+[21.545760] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/polygon_plugins/share/polygon_plugins/environment/library_path.sh\n'}
+[21.545897] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/polygon_plugins/share/polygon_plugins/environment/library_path.dsv\n'}
+[21.546178] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/polygon_plugins/share/ament_index/resource_index/package_run_dependencies/polygon_plugins\n'}
+[21.546281] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/polygon_plugins/share/ament_index/resource_index/parent_prefix_path/polygon_plugins\n'}
+[21.546495] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/polygon_plugins/share/polygon_plugins/environment/ament_prefix_path.sh\n'}
+[21.546583] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/polygon_plugins/share/polygon_plugins/environment/ament_prefix_path.dsv\n'}
+[21.546857] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/polygon_plugins/share/polygon_plugins/environment/path.sh\n'}
+[21.546929] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/polygon_plugins/share/polygon_plugins/environment/path.dsv\n'}
+[21.547396] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/polygon_plugins/share/polygon_plugins/local_setup.bash\n'}
+[21.547501] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/polygon_plugins/share/polygon_plugins/local_setup.sh\n'}
+[21.547562] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/polygon_plugins/share/polygon_plugins/local_setup.zsh\n'}
+[21.547631] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/polygon_plugins/share/polygon_plugins/local_setup.dsv\n'}
+[21.547701] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/polygon_plugins/share/polygon_plugins/package.dsv\n'}
+[21.547774] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/polygon_plugins/share/ament_index/resource_index/packages/polygon_plugins\n'}
+[21.547851] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/polygon_plugins/share/polygon_plugins/cmake/export_polygon_pluginsExport.cmake\n'}
+[21.548080] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/polygon_plugins/share/polygon_plugins/cmake/export_polygon_pluginsExport-noconfig.cmake\n'}
+[21.548211] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[21.548287] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[21.548640] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[21.548701] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/polygon_plugins/share/polygon_plugins/cmake/polygon_pluginsConfig.cmake\n'}
+[21.548765] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/polygon_plugins/share/polygon_plugins/cmake/polygon_pluginsConfig-version.cmake\n'}
+[21.548837] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/knolan/ros-practice/install/polygon_plugins/share/polygon_plugins/package.xml\n'}
+[21.549599] (polygon_plugins) CommandEnded: {'returncode': 0}
+[21.560228] (polygon_plugins) JobEnded: {'identifier': 'polygon_plugins', 'rc': 0}
+[21.561729] (-) EventReactorShutdown: {}

@@ -1,0 +1,66 @@
+[0.160s] Invoking command in '/home/knolan/ros-practice/build/polygon_plugins': AMENT_PREFIX_PATH=/home/knolan/ros-practice/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/knolan/ros-practice/install/polygon_base:/home/knolan/ros-practice/install/interface_practice:/home/knolan/ros-practice/install/cpp_parameters:/home/knolan/ros-practice/install/my_service:/home/knolan/ros-practice/install/turtlesim:/home/knolan/ros-practice/install/my_package:/home/knolan/ros2_ws2/install/turtlesim:/home/knolan/ros2_ws2/install/my_package:/opt/ros/humble /usr/bin/cmake /home/knolan/ros-practice/src/polygon_plugins -DCMAKE_INSTALL_PREFIX=/home/knolan/ros-practice/install/polygon_plugins
+[0.556s] -- The C compiler identification is GNU 11.4.0
+[2.076s] -- The CXX compiler identification is GNU 11.4.0
+[3.329s] -- Detecting C compiler ABI info
+[3.643s] -- Detecting C compiler ABI info - done
+[3.648s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.649s] -- Detecting C compile features
+[3.649s] -- Detecting C compile features - done
+[3.653s] -- Detecting CXX compiler ABI info
+[4.001s] -- Detecting CXX compiler ABI info - done
+[4.005s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.006s] -- Detecting CXX compile features
+[4.006s] -- Detecting CXX compile features - done
+[4.011s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.122s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.222s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.232s] -- Found polygon_base: 0.0.0 (/home/knolan/ros-practice/install/polygon_base/share/polygon_base/cmake)
+[4.234s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[9.409s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.463s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.463s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/knolan/ros-practice/src/polygon_plugins/include>
+[9.463s] -- Configured cppcheck exclude dirs and/or files: 
+[9.464s] -- Added test 'lint_cmake' to check CMake code style
+[9.464s] -- Added test 'uncrustify' to check C / C++ code style
+[9.464s] -- Configured uncrustify additional arguments: 
+[9.464s] -- Added test 'xmllint' to check XML markup files
+[9.469s] -- Configuring done
+[9.473s] -- Generating done
+[9.475s] -- Build files have been written to: /home/knolan/ros-practice/build/polygon_plugins
+[9.482s] Invoked command in '/home/knolan/ros-practice/build/polygon_plugins' returned '0': AMENT_PREFIX_PATH=/home/knolan/ros-practice/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/knolan/ros-practice/install/polygon_base:/home/knolan/ros-practice/install/interface_practice:/home/knolan/ros-practice/install/cpp_parameters:/home/knolan/ros-practice/install/my_service:/home/knolan/ros-practice/install/turtlesim:/home/knolan/ros-practice/install/my_package:/home/knolan/ros2_ws2/install/turtlesim:/home/knolan/ros2_ws2/install/my_package:/opt/ros/humble /usr/bin/cmake /home/knolan/ros-practice/src/polygon_plugins -DCMAKE_INSTALL_PREFIX=/home/knolan/ros-practice/install/polygon_plugins
+[9.483s] Invoking command in '/home/knolan/ros-practice/build/polygon_plugins': AMENT_PREFIX_PATH=/home/knolan/ros-practice/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/knolan/ros-practice/install/polygon_base:/home/knolan/ros-practice/install/interface_practice:/home/knolan/ros-practice/install/cpp_parameters:/home/knolan/ros-practice/install/my_service:/home/knolan/ros-practice/install/turtlesim:/home/knolan/ros-practice/install/my_package:/home/knolan/ros2_ws2/install/turtlesim:/home/knolan/ros2_ws2/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/knolan/ros-practice/build/polygon_plugins -- -j12 -l12
+[9.512s] [ 50%] [32mBuilding CXX object CMakeFiles/polygon_plugins.dir/src/polygon_plugins.cpp.o[0m
+[9.926s] [100%] [32m[1mLinking CXX shared library libpolygon_plugins.so[0m
+[10.226s] [100%] Built target polygon_plugins
+[10.234s] Invoked command in '/home/knolan/ros-practice/build/polygon_plugins' returned '0': AMENT_PREFIX_PATH=/home/knolan/ros-practice/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/knolan/ros-practice/install/polygon_base:/home/knolan/ros-practice/install/interface_practice:/home/knolan/ros-practice/install/cpp_parameters:/home/knolan/ros-practice/install/my_service:/home/knolan/ros-practice/install/turtlesim:/home/knolan/ros-practice/install/my_package:/home/knolan/ros2_ws2/install/turtlesim:/home/knolan/ros2_ws2/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/knolan/ros-practice/build/polygon_plugins -- -j12 -l12
+[10.237s] Invoking command in '/home/knolan/ros-practice/build/polygon_plugins': AMENT_PREFIX_PATH=/home/knolan/ros-practice/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/knolan/ros-practice/install/polygon_base:/home/knolan/ros-practice/install/interface_practice:/home/knolan/ros-practice/install/cpp_parameters:/home/knolan/ros-practice/install/my_service:/home/knolan/ros-practice/install/turtlesim:/home/knolan/ros-practice/install/my_package:/home/knolan/ros2_ws2/install/turtlesim:/home/knolan/ros2_ws2/install/my_package:/opt/ros/humble /usr/bin/cmake --install /home/knolan/ros-practice/build/polygon_plugins
+[10.240s] -- Install configuration: ""
+[10.241s] -- Installing: /home/knolan/ros-practice/install/polygon_plugins/include
+[10.241s] -- Installing: /home/knolan/ros-practice/install/polygon_plugins/include/polygon_plugins
+[10.241s] -- Installing: /home/knolan/ros-practice/install/polygon_plugins/include/polygon_plugins/polygon_plugins.hpp
+[10.241s] -- Installing: /home/knolan/ros-practice/install/polygon_plugins/include/polygon_plugins/visibility_control.h
+[10.242s] -- Installing: /home/knolan/ros-practice/install/polygon_plugins/lib/libpolygon_plugins.so
+[10.242s] -- Set runtime path of "/home/knolan/ros-practice/install/polygon_plugins/lib/libpolygon_plugins.so" to ""
+[10.242s] -- Installing: /home/knolan/ros-practice/install/polygon_plugins/share/polygon_plugins/environment/library_path.sh
+[10.242s] -- Installing: /home/knolan/ros-practice/install/polygon_plugins/share/polygon_plugins/environment/library_path.dsv
+[10.243s] -- Installing: /home/knolan/ros-practice/install/polygon_plugins/share/ament_index/resource_index/package_run_dependencies/polygon_plugins
+[10.243s] -- Installing: /home/knolan/ros-practice/install/polygon_plugins/share/ament_index/resource_index/parent_prefix_path/polygon_plugins
+[10.243s] -- Installing: /home/knolan/ros-practice/install/polygon_plugins/share/polygon_plugins/environment/ament_prefix_path.sh
+[10.243s] -- Installing: /home/knolan/ros-practice/install/polygon_plugins/share/polygon_plugins/environment/ament_prefix_path.dsv
+[10.243s] -- Installing: /home/knolan/ros-practice/install/polygon_plugins/share/polygon_plugins/environment/path.sh
+[10.243s] -- Installing: /home/knolan/ros-practice/install/polygon_plugins/share/polygon_plugins/environment/path.dsv
+[10.244s] -- Installing: /home/knolan/ros-practice/install/polygon_plugins/share/polygon_plugins/local_setup.bash
+[10.244s] -- Installing: /home/knolan/ros-practice/install/polygon_plugins/share/polygon_plugins/local_setup.sh
+[10.244s] -- Installing: /home/knolan/ros-practice/install/polygon_plugins/share/polygon_plugins/local_setup.zsh
+[10.244s] -- Installing: /home/knolan/ros-practice/install/polygon_plugins/share/polygon_plugins/local_setup.dsv
+[10.244s] -- Installing: /home/knolan/ros-practice/install/polygon_plugins/share/polygon_plugins/package.dsv
+[10.244s] -- Installing: /home/knolan/ros-practice/install/polygon_plugins/share/ament_index/resource_index/packages/polygon_plugins
+[10.244s] -- Installing: /home/knolan/ros-practice/install/polygon_plugins/share/polygon_plugins/cmake/export_polygon_pluginsExport.cmake
+[10.244s] -- Installing: /home/knolan/ros-practice/install/polygon_plugins/share/polygon_plugins/cmake/export_polygon_pluginsExport-noconfig.cmake
+[10.245s] -- Installing: /home/knolan/ros-practice/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.245s] -- Installing: /home/knolan/ros-practice/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+[10.245s] -- Installing: /home/knolan/ros-practice/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_targets-extras.cmake
+[10.245s] -- Installing: /home/knolan/ros-practice/install/polygon_plugins/share/polygon_plugins/cmake/polygon_pluginsConfig.cmake
+[10.245s] -- Installing: /home/knolan/ros-practice/install/polygon_plugins/share/polygon_plugins/cmake/polygon_pluginsConfig-version.cmake
+[10.245s] -- Installing: /home/knolan/ros-practice/install/polygon_plugins/share/polygon_plugins/package.xml
+[10.246s] Invoked command in '/home/knolan/ros-practice/build/polygon_plugins' returned '0': AMENT_PREFIX_PATH=/home/knolan/ros-practice/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/knolan/ros-practice/install/polygon_base:/home/knolan/ros-practice/install/interface_practice:/home/knolan/ros-practice/install/cpp_parameters:/home/knolan/ros-practice/install/my_service:/home/knolan/ros-practice/install/turtlesim:/home/knolan/ros-practice/install/my_package:/home/knolan/ros2_ws2/install/turtlesim:/home/knolan/ros2_ws2/install/my_package:/opt/ros/humble /usr/bin/cmake --install /home/knolan/ros-practice/build/polygon_plugins
